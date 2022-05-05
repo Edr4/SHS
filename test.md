@@ -471,10 +471,9 @@ Conversion notes:
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
-_S**CIENCE,HACKING**_
+# SCIENCE,HACKING AND SECURITY
 
 
-    _AND SECURITY_
 
 
 

@@ -2,9 +2,6 @@
 
 +400 pages of personal notes on cybersecurity, hacking
 
-Autor :  Comores11
-
-Contribution : Edra
 
 -   [Google Doc]()
 -   [PDF]()
@@ -22,3 +19,6 @@ Contribution : Edra
  - [XXX]()
  - [XXX]()
 
+Autor :  Comores11
+
+Contribution : Edra

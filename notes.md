@@ -93,7 +93,7 @@
 
 
             
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](images/image1.gif "image_tooltip")
 
 
 * **“4” : number of characters.**
@@ -857,7 +857,7 @@ john zippy --wordlist=/usr/share/wordlists/rockyou.txt
 * Nmap commands
 
 
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](images/image4.gif "image_tooltip")
 
 
 
@@ -984,16 +984,16 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
     * **Django ( utilise le langage python ).**
     * **[JSP, JRE, …] pour le langage JAVA.**
 * 
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](images/image5.gif "image_tooltip")
 
 * Cookies vs. sessions ( no PHP ) :
 
 
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](images/image6.gif "image_tooltip")
 
 
 
-![alt_text](images/image7.png "image_tooltip")
+![alt_text](images/image7.gif "image_tooltip")
 
 
 **An implementation :**
@@ -1448,7 +1448,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 ## 					TCP header FLag
 
 
-![alt_text](images/image8.png "image_tooltip")
+![alt_text](images/image8.gif "image_tooltip")
 
 
 **SYN : Only the first packet from sender as well as receiver should have this flag set. This is used for synchronizing sequence number.**
@@ -1458,7 +1458,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 **RST ( Reset ) : It is used to terminate the connection if the RST sender feels something is wrong with the TCP connection. It can get sent from a receiver side when the packet is sent to a particular host that was not expecting it.**
 
 
-![alt_text](images/image9.png "image_tooltip")
+![alt_text](images/image9.gif "image_tooltip")
 
 
 **PUSH : Transport layer by default waits for some time for application layer to send enough data equal to maximum segment size so that the number of packets transmitted on the network minimizes, which is not desirable by some applications like interactive applications(chatting). **
@@ -1472,13 +1472,13 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 **URG ( Urgent ) : Data inside a segment with URG = 1 flag is forwarded to the application layer immediately even if there are more data to be given to the application layer. It is used to notify the receiver to process the urgent packets before processing all other packets. The receiver will be notified when all known urgent data has been received.**
 
 
-![alt_text](images/image10.png "image_tooltip")
+![alt_text](images/image10.gif "image_tooltip")
 
 
 **				     TCP 3-way handShake**
 
 
-![alt_text](images/image11.png "image_tooltip")
+![alt_text](images/image11.gif "image_tooltip")
 
 
 **MSS : Max Segment Size.**
@@ -1490,7 +1490,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 **				 TCP connection termination**
 
 
-![alt_text](images/image12.png "image_tooltip")
+![alt_text](images/image12.gif "image_tooltip")
 
 
 
@@ -1503,11 +1503,11 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 
 
 
-![alt_text](images/image13.png "image_tooltip")
+![alt_text](images/image13.gif "image_tooltip")
 
 
 
-![alt_text](images/image14.png "image_tooltip")
+![alt_text](images/image14.gif "image_tooltip")
 
 
 
@@ -1515,7 +1515,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 * Modèle TCP/IP :
 
         
-![alt_text](images/image15.png "image_tooltip")
+![alt_text](images/image15.gif "image_tooltip")
 
 
 * **Le nom de modèle TCP/IP est étroitement lié à deux protocoles : le protocole TCP (Transmission Control Protocol) et le protocole IP (Internet Protocol). Ceci est en partie dû au fait que ce sont les deux protocoles les plus utilisés pour Internet.**
@@ -1550,7 +1550,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 
 
 
-![alt_text](images/image16.png "image_tooltip")
+![alt_text](images/image16.gif "image_tooltip")
 
 
 **	En résumé :**
@@ -1568,11 +1568,11 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 
 
 
-![alt_text](images/image17.png "image_tooltip")
+![alt_text](images/image17.gif)
 
 
 
-![alt_text](images/image18.png "image_tooltip")
+![alt_text](images/image18.gif)
 
 
 **Dans une infrastructure à clé publique ; pour obtenir un certificat numérique, l'utilisateur fait une demande auprès de l'autorité d'enregistrement. Celle-ci génère un couple de clef (clé publique, clé privée), envoie la clé privée au client, applique une procédure et des critères définis par l'autorité de certification qui certifie la clé publique et appose sa signature sur le certificat, parfois fabriqué par un opérateur de certification.**
@@ -1592,7 +1592,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
             * **C’est le protocole qui régit l’établissement d’une connexion entre deux entités d’un réseau. Il gère l’authentification du serveur et/ou du client, la négociation des algorithmes de chiffrement et la génération des clés symétriques.**
 
             
-![alt_text](images/image19.png "image_tooltip")
+![alt_text](images/image19.gif)
 
 
 * **1) C -> S.ClientHello: le client initie une requête en envoyant un message de type ClientHello qui contient:**
@@ -1727,7 +1727,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 
 
     
-![alt_text](images/image20.png "image_tooltip")
+![alt_text](images/image20.gif)
 
 
     * **Segmentation: les données sont découpées en blocs de taille inférieure à 16 ko;**
@@ -1853,7 +1853,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 
 
 
-![alt_text](images/image21.png "image_tooltip")
+![alt_text](images/image21.gif)
 
 
 **Ephemeral Diffie-Hellman (DHE in the context of TLS) differs from the static Diffie-Hellman (DH) in the way that static Diffie-Hellman key exchanges also always use the same Diffie-Hellman private keys. So, each time the same parties do a DH key exchange, they end up with the same shared secret.**
@@ -2139,11 +2139,11 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 * **Connecting with telnet ( instead SSH ) is insecure as anyone who can see the traffic, or access a packet capture of the connection is able to see the username and password used as well as all the commands that the user executed.**
 
 
-![alt_text](images/image22.png "image_tooltip")
+![alt_text](images/image22.gif)
 
 
 
-![alt_text](images/image23.png "image_tooltip")
+![alt_text](images/image23.gif)
 
 
 **	**
@@ -2174,12 +2174,12 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 
 
 
-![alt_text](images/image24.png "image_tooltip")
+![alt_text](images/image24.gif)
 
 
 
 
-![alt_text](images/image25.png "image_tooltip")
+![alt_text](images/image25.gif)
 
 
 
@@ -2190,7 +2190,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 
 
     
-![alt_text](images/image26.png "image_tooltip")
+![alt_text](images/image26.gif)
 
 
 
@@ -2208,7 +2208,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
         **Exemple session SMTP avec telnet :**
 
 
-![alt_text](images/image27.png "image_tooltip")
+![alt_text](images/image27.gif)
 
 
 **Un série de codes retour sur trois chiffres est présente pour indiquer le statut de la demande.**
@@ -2224,7 +2224,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 **    code 5 : la demande n'est pas valide et n'a pas pu être traitée.**
 
 
-![alt_text](images/image28.png "image_tooltip")
+![alt_text](images/image28.gif)
 
 
 
@@ -2392,7 +2392,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 * **Utiliser une bonne fonction de décodage selon la librairie utilisée pour que la signature soit vérifiée ( si on utilise une mauvaise fonction pour décoder le jwt, il se peut que la signature n’est pas vérifiée et donc qu’un attaquant peut mettre ce qu’il veut en tant que data ).**
 * **Sometimes, there is a “Kid” parameter :**
 * 
-![alt_text](images/image29.png "image_tooltip")
+![alt_text](images/image29.gif)
 
 
 **				Often used to retrieve a key from database or file **
@@ -2414,7 +2414,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 
 
                 
-![alt_text](images/image30.png "image_tooltip")
+![alt_text](images/image30.gif)
 
 
 
@@ -2741,7 +2741,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 * LDAP injection
 
 
-![alt_text](images/image36.png "image_tooltip")
+![alt_text](images/image36.gif)
 
 
 **Some useful commands for LDAP injection**
@@ -2842,15 +2842,15 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 
 
 
-![alt_text](images/image37.png "image_tooltip")
+![alt_text](images/image37.gif)
 
 
 **La fonction ﻿”htmlspecialchars” protège de certaines injections SQL : elle filtre les caractère : & “ ‘ &lt; >.**
 
 
-![alt_text](images/image38.png "image_tooltip")
+![alt_text](images/image38.gif)
 
-![alt_text](images/image39.png "image_tooltip")
+![alt_text](images/image39.gif)
 
 
 
@@ -2873,7 +2873,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
     * example : 
 
                     
-![alt_text](images/image40.png "image_tooltip")
+![alt_text](images/image40.gif)
 
 
 
@@ -3037,7 +3037,7 @@ Step :
 * Inclure le fichier log via la RFI/LFI, ce qui va exécuter le code php
 
 
-![alt_text](images/image42.png "image_tooltip")
+![alt_text](images/image42.gif "image_tooltip")
 
 
 
@@ -3049,7 +3049,7 @@ Step :
 * Inclure le fichier /proc/self/environ : This file hosts the initial environment of the Apache process. Thus, the environmental variable User-Agent is likely to appear there. Ce qui va exécuter le code php
 
 
-![alt_text](images/image43.png "image_tooltip")
+![alt_text](images/image43.gif "image_tooltip")
 
 
 
@@ -3061,7 +3061,7 @@ Step :
 * The php code will be wrote in the log file ( /var/log/auth.log )
 
     
-![alt_text](images/image44.png "image_tooltip")
+![alt_text](images/image44.gif "image_tooltip")
 
 
 * payloads : 192.168.1.129/lfi/lfi.php?file=////var/log/auth.log&c=[RCE]
@@ -3075,7 +3075,7 @@ Step :
 * Now let’s try to send a mail via the command line (CLI) of this machine and send the OS commands via the “RCPT TO” option : 
 
     
-![alt_text](images/image45.png "image_tooltip")
+![alt_text](images/image45.gif "image_tooltip")
 
 
 * Final payload : 192.168.1.107/lfi/lfi.php?file=/var/log/mail.log&c=ifconfig
@@ -3147,34 +3147,34 @@ Step :
     * **Note : ﻿With real-world XXE vulnerabilities, there will often be a large number of data values within the submitted XML, any one of which might be used within the application's response. To test systematically for XXE vulnerabilities, you will generally need to test each data node in the XML individually, by making use of your defined entity and seeing whether it appears within the response.**
 
 
-![alt_text](images/image46.png "image_tooltip")
+![alt_text](images/image46.gif "image_tooltip")
 ** **
 
 
 
-![alt_text](images/image47.png "image_tooltip")
+![alt_text](images/image47.gif "image_tooltip")
 
 
 **Scénario associée :**
 
 
-![alt_text](images/image48.png "image_tooltip")
+![alt_text](images/image48.gif "image_tooltip")
 
 
 
-![alt_text](images/image49.png "image_tooltip")
+![alt_text](images/image49.gif "image_tooltip")
 
 
 
-![alt_text](images/image50.png "image_tooltip")
+![alt_text](images/image50.gif "image_tooltip")
 
 
 
-![alt_text](images/image51.png "image_tooltip")
+![alt_text](images/image51.gif "image_tooltip")
 
 
 
-![alt_text](images/image52.png "image_tooltip")
+![alt_text](images/image52.gif "image_tooltip")
 
 
 
@@ -3223,7 +3223,7 @@ Step :
 
 
 
-![alt_text](images/image53.png "image_tooltip")
+![alt_text](images/image53.gif "image_tooltip")
 
 
 
@@ -3495,7 +3495,7 @@ Step :
 
 
 
-![alt_text](images/image54.png "image_tooltip")
+![alt_text](images/image54.gif "image_tooltip")
 
 
 
@@ -3509,7 +3509,7 @@ Step :
 
 
 **	**
-![alt_text](images/image55.png "image_tooltip")
+![alt_text](images/image55.gif "image_tooltip")
 
 
 
@@ -3517,15 +3517,15 @@ Step :
 * **le Href dans la photo d’en haut contient l’URL de l’attaquant.**
 
 
-![alt_text](images/image56.png "image_tooltip")
+![alt_text](images/image56.gif "image_tooltip")
 
 
 
-![alt_text](images/image57.png "image_tooltip")
+![alt_text](images/image57.gif "image_tooltip")
 
 
 
-![alt_text](images/image58.png "image_tooltip")
+![alt_text](images/image58.gif "image_tooltip")
 
 
 
@@ -3643,15 +3643,15 @@ Step :
 **	List of HTML attribute with URL :**
 
 **	**
-![alt_text](images/image60.png "image_tooltip")
+![alt_text](images/image60.gif "image_tooltip")
 
 
 
-![alt_text](images/image61.png "image_tooltip")
+![alt_text](images/image61.gif "image_tooltip")
 
 
 
-![alt_text](images/image62.png "image_tooltip")
+![alt_text](images/image62.gif "image_tooltip")
 
 
 
@@ -3737,7 +3737,7 @@ Step :
 * **You can use XSS inside SVG file  ( XSS by uploading file ):**
 
     
-![alt_text](images/image63.png "image_tooltip")
+![alt_text](images/image63.gif "image_tooltip")
 
 
 
@@ -3747,7 +3747,7 @@ Step :
 * Definition
 
 
-![alt_text](images/image64.png "image_tooltip")
+![alt_text](images/image64.gif "image_tooltip")
 
 
 * **“101 Switching protocol means” that the web socket is connected.**
@@ -3762,7 +3762,7 @@ Step :
 
 
     
-![alt_text](images/image65.png "image_tooltip")
+![alt_text](images/image65.gif "image_tooltip")
 
 
 
@@ -3776,21 +3776,21 @@ Step :
 
 
 
-![alt_text](images/image66.png "image_tooltip")
+![alt_text](images/image66.gif "image_tooltip")
 
 
 **What often happens is that le wildcard ”*” is used when sensitive messages are sent. So, any website can get this sensitive message :**
 
 
 
-![alt_text](images/image67.png "image_tooltip")
+![alt_text](images/image67.gif "image_tooltip")
 
 
 **Another scenario :**
 
 
 
-![alt_text](images/image68.png "image_tooltip")
+![alt_text](images/image68.gif "image_tooltip")
 
 
 **Here, there is no checking for the origin of the message. So an attacker can send any message to the website from another malicious one :**
@@ -3798,13 +3798,13 @@ Step :
 **Another scenario :**
 
 
-![alt_text](images/image69.png "image_tooltip")
+![alt_text](images/image69.gif "image_tooltip")
 
 
 **Autre payload :**
 
 
-![alt_text](images/image70.png "image_tooltip")
+![alt_text](images/image70.gif "image_tooltip")
 
 
 **Il faut bien sûr que le site vulnérable permette les iframes pour ce type de payload.**
@@ -3814,12 +3814,12 @@ Step :
 * **possible payload sans iframe :**
 
 
-![alt_text](images/image71.png "image_tooltip")
+![alt_text](images/image71.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image72.png "image_tooltip")
+![alt_text](images/image72.gif "image_tooltip")
 
 
 
@@ -3827,43 +3827,43 @@ Step :
 * Authentication :
 
 
-![alt_text](images/image73.png "image_tooltip")
+![alt_text](images/image73.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image74.png "image_tooltip")
+![alt_text](images/image74.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image75.png "image_tooltip")
+![alt_text](images/image75.gif "image_tooltip")
 
 
 
-![alt_text](images/image76.png "image_tooltip")
+![alt_text](images/image76.gif "image_tooltip")
 
 
 **(depending on the format of the request parameter)**
 
 
-![alt_text](images/image77.png "image_tooltip")
+![alt_text](images/image77.gif "image_tooltip")
 
 
 
-![alt_text](images/image78.png "image_tooltip")
+![alt_text](images/image78.gif "image_tooltip")
 
 
 
-![alt_text](images/image79.png "image_tooltip")
+![alt_text](images/image79.gif "image_tooltip")
 
 
 
-![alt_text](images/image80.png "image_tooltip")
+![alt_text](images/image80.gif "image_tooltip")
 
 
 
-![alt_text](images/image81.png "image_tooltip")
+![alt_text](images/image81.gif "image_tooltip")
 
 
 **-------------------------------------------------------------------**
@@ -3887,7 +3887,7 @@ Step :
 * **If the used API support open redirection via a parameter, you can try perform SSRF via this one ( to bypass the filter of the basic server ):**
 
 
-![alt_text](images/image82.png "image_tooltip")
+![alt_text](images/image82.gif "image_tooltip")
 
 
 
@@ -3895,7 +3895,7 @@ Step :
 * finding vuln
 
 
-![alt_text](images/image83.png "image_tooltip")
+![alt_text](images/image83.gif "image_tooltip")
 
 
 
@@ -4042,21 +4042,21 @@ Step :
 * Os command injection
 
 
-![alt_text](images/image84.png "image_tooltip")
+![alt_text](images/image84.gif "image_tooltip")
 
 
 
-![alt_text](images/image85.png "image_tooltip")
+![alt_text](images/image85.gif "image_tooltip")
 
 
 
-![alt_text](images/image86.png "image_tooltip")
+![alt_text](images/image86.gif "image_tooltip")
 
 
 
-![alt_text](images/image87.png "image_tooltip")
+![alt_text](images/image87.gif "image_tooltip")
 
-![alt_text](images/image88.png "image_tooltip")
+![alt_text](images/image88.gif "image_tooltip")
 
 
 
@@ -4140,11 +4140,11 @@ Definiton
 **Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform.**
 
 
-![alt_text](images/image89.png "image_tooltip")
+![alt_text](images/image89.gif "image_tooltip")
 
 
 
-![alt_text](images/image90.png "image_tooltip")
+![alt_text](images/image90.gif "image_tooltip")
 
 
 
@@ -4152,19 +4152,19 @@ Definiton
 * Preventing
 
 
-![alt_text](images/image91.png "image_tooltip")
+![alt_text](images/image91.gif "image_tooltip")
 
 
 
-![alt_text](images/image92.png "image_tooltip")
+![alt_text](images/image92.gif "image_tooltip")
 
 
 
-![alt_text](images/image93.png "image_tooltip")
+![alt_text](images/image93.gif "image_tooltip")
 
 
 
-![alt_text](images/image94.png "image_tooltip")
+![alt_text](images/image94.gif "image_tooltip")
 
 
 **Quelques tactiques pour se protéger contre CSRF:**
@@ -4174,11 +4174,11 @@ Definiton
 * **Utiliser l'entête Referer or Origin pour examiner la provenance d’une requête (pour vérifier par exemple si une requête de changement de mot passe provient bien de la page web auquel on accède pour changer de mot de passe). Cette méthode est bypassable.**
 
 
-![alt_text](images/image95.png "image_tooltip")
+![alt_text](images/image95.gif "image_tooltip")
 
 
 
-![alt_text](images/image96.png "image_tooltip")
+![alt_text](images/image96.gif "image_tooltip")
 
 
 **On peut utiliser la fonction javascript history.pushState() ( _method to add a state to the browser's session history stack._ ) pour modifier le Referer et concaténer un domaine autorisé : history.pushState("", "", "/?[DOMAINE AUTORISÉ]").**
@@ -4189,7 +4189,7 @@ Definiton
 * **Modify the name of the parameters of the POST or GET request**
 
 
-![alt_text](images/image97.png "image_tooltip")
+![alt_text](images/image97.gif "image_tooltip")
 
 
 **( Using to tool )**
@@ -4199,27 +4199,27 @@ Definiton
 * Exploit techniques
 
 
-![alt_text](images/image98.png "image_tooltip")
+![alt_text](images/image98.gif "image_tooltip")
 
 
 
-![alt_text](images/image99.png "image_tooltip")
+![alt_text](images/image99.gif "image_tooltip")
 
 
 
-![alt_text](images/image100.png "image_tooltip")
+![alt_text](images/image100.gif "image_tooltip")
 
 
 
-![alt_text](images/image101.png "image_tooltip")
+![alt_text](images/image101.gif "image_tooltip")
 
 
 
-![alt_text](images/image102.png "image_tooltip")
+![alt_text](images/image102.gif "image_tooltip")
 
 
 
-![alt_text](images/image103.png "image_tooltip")
+![alt_text](images/image103.gif "image_tooltip")
 
 
 **( Using Json as part of the POST data )**
@@ -4229,11 +4229,11 @@ Definiton
 **example :**
 
 
-![alt_text](images/image104.png "image_tooltip")
+![alt_text](images/image104.gif "image_tooltip")
 
 
 
-![alt_text](images/image105.png "image_tooltip")
+![alt_text](images/image105.gif "image_tooltip")
 
 
 
@@ -4241,25 +4241,25 @@ Definiton
 * Business logic vulnerabilities
 
 
-![alt_text](images/image106.png "image_tooltip")
+![alt_text](images/image106.gif "image_tooltip")
 
 
 **The associated vulnerabilities are also known as "application logic vulnerabilities" or simply "logic flaws". **
 
 
-![alt_text](images/image107.png "image_tooltip")
+![alt_text](images/image107.gif "image_tooltip")
 
 
 
-![alt_text](images/image108.png "image_tooltip")
+![alt_text](images/image108.gif "image_tooltip")
 
 
 
-![alt_text](images/image109.png "image_tooltip")
+![alt_text](images/image109.gif "image_tooltip")
 
 
 
-![alt_text](images/image110.png "image_tooltip")
+![alt_text](images/image110.gif "image_tooltip")
 
 
 
@@ -4307,7 +4307,7 @@ Definiton
 
 
 
-![alt_text](images/image111.png "image_tooltip")
+![alt_text](images/image111.gif "image_tooltip")
 
 
 
@@ -4316,11 +4316,11 @@ Definiton
 * Web cache poisoning
 
 
-![alt_text](images/image112.png "image_tooltip")
+![alt_text](images/image112.gif "image_tooltip")
 
 
 
-![alt_text](images/image113.png "image_tooltip")
+![alt_text](images/image113.gif "image_tooltip")
 
 
 **How to prevent from Cache Poisoning?**
@@ -4330,11 +4330,11 @@ Definiton
 * **You must review the caching configuration of your caching server to ensure that when calculating cache keys it is avoiding to make any cache key decisions using untrusted user inputs**
 
 
-![alt_text](images/image114.png "image_tooltip")
+![alt_text](images/image114.gif "image_tooltip")
 
 
 
-![alt_text](images/image115.png "image_tooltip")
+![alt_text](images/image115.gif "image_tooltip")
 
 
 
@@ -4342,11 +4342,11 @@ Definiton
 * Access Control
 
 
-![alt_text](images/image116.png "image_tooltip")
+![alt_text](images/image116.gif "image_tooltip")
 
 
 
-![alt_text](images/image117.png "image_tooltip")
+![alt_text](images/image117.gif "image_tooltip")
 
 
 
@@ -4362,27 +4362,27 @@ Definition
 **It extends and adds flexibility to the same-origin policy (SOP). However, it also provides potential for cross-domain based attacks, if a website's CORS policy is poorly configured and implemented.**
 
 
-![alt_text](images/image118.png "image_tooltip")
+![alt_text](images/image118.gif "image_tooltip")
 
 
 
-![alt_text](images/image119.png "image_tooltip")
+![alt_text](images/image119.gif "image_tooltip")
 
 
 
-![alt_text](images/image120.png "image_tooltip")
+![alt_text](images/image120.gif "image_tooltip")
 
 
 
-![alt_text](images/image121.png "image_tooltip")
+![alt_text](images/image121.gif "image_tooltip")
 
 
 
-![alt_text](images/image122.png "image_tooltip")
+![alt_text](images/image122.gif "image_tooltip")
 
 
 
-![alt_text](images/image123.png "image_tooltip")
+![alt_text](images/image123.gif "image_tooltip")
 
 
 **SOP does not prevent sending requests. It does prevent a page from accessing results of cross-domain requests.**
@@ -4396,7 +4396,7 @@ Definition
 **resources from the expanded request options allowed by CORS. **
 
 
-![alt_text](images/image124.png "image_tooltip")
+![alt_text](images/image124.gif "image_tooltip")
 
 
 
@@ -4418,15 +4418,15 @@ This allows attackers to inject arbitrary template directives in order to manipu
 **As the name suggests, server-side template injection payloads are delivered and evaluated server-side, potentially making them much more dangerous than a typical client-side template injection. **
 
 
-![alt_text](images/image125.png "image_tooltip")
+![alt_text](images/image125.gif "image_tooltip")
 
 
 
-![alt_text](images/image126.png "image_tooltip")
+![alt_text](images/image126.gif "image_tooltip")
 
 
 
-![alt_text](images/image127.png "image_tooltip")
+![alt_text](images/image127.gif "image_tooltip")
 
 
 
@@ -4434,19 +4434,19 @@ This allows attackers to inject arbitrary template directives in order to manipu
 * Detect
 
 
-![alt_text](images/image128.png "image_tooltip")
+![alt_text](images/image128.gif "image_tooltip")
 
 
 
-![alt_text](images/image129.png "image_tooltip")
+![alt_text](images/image129.gif "image_tooltip")
 
 
 
-![alt_text](images/image130.png "image_tooltip")
+![alt_text](images/image130.gif "image_tooltip")
 
 
 
-![alt_text](images/image131.png "image_tooltip")
+![alt_text](images/image131.gif "image_tooltip")
 
 
 
@@ -4454,11 +4454,11 @@ This allows attackers to inject arbitrary template directives in order to manipu
 * Identify
 
 
-![alt_text](images/image132.png "image_tooltip")
+![alt_text](images/image132.gif "image_tooltip")
 
 
 
-![alt_text](images/image133.png "image_tooltip")
+![alt_text](images/image133.gif "image_tooltip")
 
 
 **Once you discover a server-side template injection vulnerability, and identify the template engine being used, unless you already know the template engine inside out, reading its documentation is usually the first place to start.**
@@ -4470,7 +4470,7 @@ This allows attackers to inject arbitrary template directives in order to manipu
 * Explore
 
 
-![alt_text](images/image134.png "image_tooltip")
+![alt_text](images/image134.gif "image_tooltip")
 
 
 **It is important to note that websites will contain both built-in objects provided by the template and custom, site-specific objects that have been supplied by the web developer. You should pay particular attention to these non-standard objects because they are especially likely to contain sensitive information or exploitable methods.**
@@ -4480,7 +4480,7 @@ This allows attackers to inject arbitrary template directives in order to manipu
 **You should proceed by reviewing each function for exploitable behavior. By working methodically through this process, you may sometimes be able to construct a complex attack that is even able to exploit more secure targets.**
 
 
-![alt_text](images/image135.png "image_tooltip")
+![alt_text](images/image135.gif "image_tooltip")
 
 
 
@@ -4488,7 +4488,7 @@ This allows attackers to inject arbitrary template directives in order to manipu
 * Preventing
 
 
-![alt_text](images/image136.png "image_tooltip")
+![alt_text](images/image136.gif "image_tooltip")
 
 
 
@@ -4617,7 +4617,7 @@ This allows attackers to inject arbitrary template directives in order to manipu
 * **MIME sniffing is a technique ( not malicious ) used by some web browsers (primarily Internet Explorer) to examine the content of a particular asset. This is done for the purpose of determining an asset's file format. **
 
     
-![alt_text](images/image137.png "image_tooltip")
+![alt_text](images/image137.gif "image_tooltip")
 
 
 
@@ -4636,7 +4636,7 @@ Exploiting PUT Method
 * **First, we have to determine if the HTTP PUT method is enabled on the server ( by some tools like Nikito …). Note that permissions are likely to be implemented per directory, so recursive checking is required in an attack. Tools such as DAVTest can be used to iteratively check all directories on the server for the PUT method.**
 
 
-![alt_text](images/image138.png "image_tooltip")
+![alt_text](images/image138.gif "image_tooltip")
 
 
 
@@ -4645,7 +4645,7 @@ Exploiting PUT Method
 * With Cadaver 
 
 
-![alt_text](images/image139.png "image_tooltip")
+![alt_text](images/image139.gif "image_tooltip")
 
 
 
@@ -4653,7 +4653,7 @@ Exploiting PUT Method
 * With Nmap
 
 
-![alt_text](images/image140.png "image_tooltip")
+![alt_text](images/image140.gif "image_tooltip")
 
 
 **An example with this command :**
@@ -4661,7 +4661,7 @@ Exploiting PUT Method
 **nmap -p 80 192.168.1.103 --script http-put --script-args http-put.url='/dav/nmap.php',http-put.file='/root/Desktop/nmap.php'**
 
 
-![alt_text](images/image141.png "image_tooltip")
+![alt_text](images/image141.gif "image_tooltip")
 
 
 
@@ -4669,15 +4669,15 @@ Exploiting PUT Method
 * With Burp-Suite
 
 
-![alt_text](images/image142.png "image_tooltip")
+![alt_text](images/image142.gif "image_tooltip")
 
 
 
-![alt_text](images/image143.png "image_tooltip")
+![alt_text](images/image143.gif "image_tooltip")
 
 
 
-![alt_text](images/image144.png "image_tooltip")
+![alt_text](images/image144.gif "image_tooltip")
 
 
 
@@ -4685,11 +4685,11 @@ Exploiting PUT Method
 * Finding PUT Method vuln
 
 
-![alt_text](images/image145.png "image_tooltip")
+![alt_text](images/image145.gif "image_tooltip")
 
 
 
-![alt_text](images/image146.png "image_tooltip")
+![alt_text](images/image146.gif "image_tooltip")
 
 
 
@@ -4698,7 +4698,7 @@ Exploiting PUT Method
 * Definition
 
 
-![alt_text](images/image147.png "image_tooltip")
+![alt_text](images/image147.gif "image_tooltip")
 
 
 **The purpose of the HTTP Host header is to help identify which back-end component the client wants to communicate with. If requests didn't contain Host headers, or if the Host header was malformed in some way, this could lead to issues when routing incoming requests to the intended application.**
@@ -4714,7 +4714,7 @@ Exploiting PUT Method
 1. **Virtual Hosting**
 
 
-![alt_text](images/image148.png "image_tooltip")
+![alt_text](images/image148.gif "image_tooltip")
 
 
 **2) Routing traffic via an intermediary**
@@ -4730,7 +4730,7 @@ Exploiting PUT Method
 **When a browser sends the request, the target URL will resolve to the IP address of a particular server. When this server receives the request, it refers to the Host header to determine the intended back-end and forwards the request accordingly.**
 
 
-![alt_text](images/image149.png "image_tooltip")
+![alt_text](images/image149.gif "image_tooltip")
 
 
 
@@ -4738,7 +4738,7 @@ Exploiting PUT Method
 * Prévention
 
 
-![alt_text](images/image150.png "image_tooltip")
+![alt_text](images/image150.gif "image_tooltip")
 
 
 
@@ -4753,23 +4753,23 @@ Exploiting PUT Method
 **For example, servers are sometimes configured with a default or fallback option in case they receive requests for domain names that they don't recognize.**
 
 
-![alt_text](images/image151.png "image_tooltip")
+![alt_text](images/image151.gif "image_tooltip")
 
 
 
-![alt_text](images/image152.png "image_tooltip")
+![alt_text](images/image152.gif "image_tooltip")
 
 
 
-![alt_text](images/image153.png "image_tooltip")
+![alt_text](images/image153.gif "image_tooltip")
 
 
 
-![alt_text](images/image154.png "image_tooltip")
+![alt_text](images/image154.gif "image_tooltip")
 
 
 
-![alt_text](images/image155.png "image_tooltip")
+![alt_text](images/image155.gif "image_tooltip")
 
 
 **Add line wrapping**
@@ -4777,7 +4777,7 @@ Exploiting PUT Method
 **You can also uncover quirky behavior by indenting HTTP headers with a space character :**
 
 
-![alt_text](images/image156.png "image_tooltip")
+![alt_text](images/image156.gif "image_tooltip")
 
 
 **The website may block requests with multiple Host headers, but you may be able to bypass this validation by indenting one of them like this.**
@@ -4787,7 +4787,7 @@ Exploiting PUT Method
 **There are many possible ways to issue harmful, ambiguous requests. You can also adapt many HTTP request smuggling techniques to construct Host header attacks.**
 
 
-![alt_text](images/image157.png "image_tooltip")
+![alt_text](images/image157.gif "image_tooltip")
 
 
 **From a security perspective, it is important to note that some websites, potentially even your own, support this kind of behavior unintentionally. This is usually because one or more of these headers is enabled by default in some third-party technology that they use.**
@@ -4797,23 +4797,23 @@ Exploiting PUT Method
 * Password reset poisoning :
 
 
-![alt_text](images/image158.png "image_tooltip")
+![alt_text](images/image158.gif "image_tooltip")
 
 
 
-![alt_text](images/image159.png "image_tooltip")
+![alt_text](images/image159.gif "image_tooltip")
 
 
 
-![alt_text](images/image160.png "image_tooltip")
+![alt_text](images/image160.gif "image_tooltip")
 
 
 
-![alt_text](images/image161.png "image_tooltip")
+![alt_text](images/image161.gif "image_tooltip")
 
 
 
-![alt_text](images/image162.png "image_tooltip")
+![alt_text](images/image162.gif "image_tooltip")
 
 
 
@@ -4825,7 +4825,7 @@ Exploiting PUT Method
 
 
 
-![alt_text](images/image163.png "image_tooltip")
+![alt_text](images/image163.gif "image_tooltip")
 
 
 **When the front-end server forwards HTTP requests to a back-end server, it typically sends several requests over the same back-end network connection, because this is much more efficient and performant. **
@@ -4833,23 +4833,23 @@ Exploiting PUT Method
 **The protocol is very simple: HTTP requests are sent one after another, and the receiving server parses the HTTP request headers to determine where one request ends and the next one begins.**
 
 
-![alt_text](images/image164.png "image_tooltip")
+![alt_text](images/image164.gif "image_tooltip")
 
 
 
-![alt_text](images/image165.png "image_tooltip")
+![alt_text](images/image165.gif "image_tooltip")
 
 
 
-![alt_text](images/image166.png "image_tooltip")
+![alt_text](images/image166.gif "image_tooltip")
 
 
 
-![alt_text](images/image167.png "image_tooltip")
+![alt_text](images/image167.gif "image_tooltip")
 
 
 
-![alt_text](images/image168.png "image_tooltip")
+![alt_text](images/image168.gif "image_tooltip")
 
 
 **Since the HTTP specification provides two different methods for specifying the length of HTTP messages, it is possible for a single message to use both methods at once, such that they conflict with each other. **
@@ -4865,7 +4865,7 @@ Exploiting PUT Method
 **If the front-end and back-end servers behave differently in relation to the (possibly obfuscated) Transfer-Encoding header, then they might disagree about the boundaries between successive requests, leading to request smuggling vulnerabilities. **
 
 
-![alt_text](images/image169.png "image_tooltip")
+![alt_text](images/image169.gif "image_tooltip")
 
 
 
@@ -4873,7 +4873,7 @@ Exploiting PUT Method
 * CL.TE vuln
 
 
-![alt_text](images/image170.png "image_tooltip")
+![alt_text](images/image170.gif "image_tooltip")
 
 
 
@@ -4881,7 +4881,7 @@ Exploiting PUT Method
 * TE.CL vuln
 
 
-![alt_text](images/image171.png "image_tooltip")
+![alt_text](images/image171.gif "image_tooltip")
 
 
 
@@ -4889,7 +4889,7 @@ Exploiting PUT Method
 * TE.TE vuln
 
 
-![alt_text](images/image172.png "image_tooltip")
+![alt_text](images/image172.gif "image_tooltip")
 
 
 
@@ -4897,7 +4897,7 @@ Exploiting PUT Method
 * Prevention
 
 
-![alt_text](images/image173.png "image_tooltip")
+![alt_text](images/image173.gif "image_tooltip")
 
 
 
@@ -4905,11 +4905,11 @@ Exploiting PUT Method
 * Finding CL.TE vuln
 
 
-![alt_text](images/image174.png "image_tooltip")
+![alt_text](images/image174.gif "image_tooltip")
 
 
 
-![alt_text](images/image175.png "image_tooltip")
+![alt_text](images/image175.gif "image_tooltip")
 
 
 
@@ -4917,11 +4917,11 @@ Exploiting PUT Method
 * Finding TE.CL vuln
 
 
-![alt_text](images/image176.png "image_tooltip")
+![alt_text](images/image176.gif "image_tooltip")
 
 
 
-![alt_text](images/image177.png "image_tooltip")
+![alt_text](images/image177.gif "image_tooltip")
 
 
 
@@ -4957,14 +4957,14 @@ Exploiting PUT Method
 
 
 **	**
-![alt_text](images/image178.png "image_tooltip")
+![alt_text](images/image178.gif "image_tooltip")
 
 
 
     **There are numerous different ways that the actual OAuth process can be implemented. In this topic, we'll focus on the "authorization code" and "implicit" grant types as these are by far the most common. **
 
 
-![alt_text](images/image179.png "image_tooltip")
+![alt_text](images/image179.gif "image_tooltip")
 
 
 
@@ -4981,7 +4981,7 @@ Exploiting PUT Method
     **example : **
 
 
-![alt_text](images/image180.png "image_tooltip")
+![alt_text](images/image180.gif "image_tooltip")
 
 
 
@@ -4990,21 +4990,21 @@ Exploiting PUT Method
 **“Authorization code” grant type**
 
 
-![alt_text](images/image181.png "image_tooltip")
+![alt_text](images/image181.gif "image_tooltip")
 
 
 **Other better view :**
 
 
 
-![alt_text](images/image182.png "image_tooltip")
+![alt_text](images/image182.gif "image_tooltip")
 
 
 
 
 * **The "access token" is also used to make API calls to fetch the relevant user data. **
 * 
-![alt_text](images/image183.png "image_tooltip")
+![alt_text](images/image183.gif "image_tooltip")
 
 
 **	**
@@ -5019,7 +5019,7 @@ Exploiting PUT Method
 
 
 
-![alt_text](images/image184.png "image_tooltip")
+![alt_text](images/image184.gif "image_tooltip")
 
 
 
@@ -5035,7 +5035,7 @@ Exploiting PUT Method
 **“Implicit” grant type**
 
 
-![alt_text](images/image185.png "image_tooltip")
+![alt_text](images/image185.gif "image_tooltip")
 
 
 
@@ -5055,32 +5055,32 @@ Exploiting PUT Method
 * **OAuth authentication is generally implemented as follows : **
 
 
-![alt_text](images/image186.png "image_tooltip")
+![alt_text](images/image186.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image187.png "image_tooltip")
+![alt_text](images/image187.gif "image_tooltip")
 
 
 
 
 * 
-![alt_text](images/image188.png "image_tooltip")
+![alt_text](images/image188.gif "image_tooltip")
 
 
 **If the state Parameter is not used by the OAuth2 Client, a CSRF is maybe possible ( leading to Takeover account ) :**
 
 
 
-![alt_text](images/image189.png "image_tooltip")
+![alt_text](images/image189.gif "image_tooltip")
 
 
 **Then ( in the next photo ):**
 
 
 
-![alt_text](images/image190.png "image_tooltip")
+![alt_text](images/image190.gif "image_tooltip")
 
 
 
@@ -5088,7 +5088,7 @@ Exploiting PUT Method
 
 
 
-![alt_text](images/image191.png "image_tooltip")
+![alt_text](images/image191.gif "image_tooltip")
 
 
 
@@ -5104,21 +5104,21 @@ Exploiting PUT Method
 
 
 
-![alt_text](images/image192.png "image_tooltip")
+![alt_text](images/image192.gif "image_tooltip")
 
 
 
-![alt_text](images/image193.png "image_tooltip")
+![alt_text](images/image193.gif "image_tooltip")
 
 
 
-![alt_text](images/image194.png "image_tooltip")
+![alt_text](images/image194.gif "image_tooltip")
 
 
 **However, there may still be ways to bypass this validation. It depends on how the URI is checked (See SSRF bypass, parameter pollution vulnerabilities).**
 
 
-![alt_text](images/image195.png "image_tooltip")
+![alt_text](images/image195.gif "image_tooltip")
 
 
 **It is important to note that you shouldn't limit your testing to just probing the redirect_uri parameter in isolation.**
@@ -5128,7 +5128,7 @@ Exploiting PUT Method
 **Sometimes changing one parameter can affect the validation of others. For example, changing the response_mode from query to fragment can sometimes completely alter the parsing of the redirect_uri.**
 
 
-![alt_text](images/image196.png "image_tooltip")
+![alt_text](images/image196.gif "image_tooltip")
 
 
 **Once you identify which other pages you are able to set as the redirect URI, you should audit them for additional vulnerabilities ( like open redirects, …) that you can potentially use to leak the code or token.**
@@ -5138,7 +5138,7 @@ Exploiting PUT Method
 * **Flawed scope validation :**
 
 
-![alt_text](images/image197.png "image_tooltip")
+![alt_text](images/image197.gif "image_tooltip")
 
 
 
@@ -5150,19 +5150,19 @@ Exploiting PUT Method
 
 
 
-![alt_text](images/image198.png "image_tooltip")
+![alt_text](images/image198.gif "image_tooltip")
 
 
 **But the Service Provider needs to trust the Identity Provider :**
 
 
-![alt_text](images/image199.png "image_tooltip")
+![alt_text](images/image199.gif "image_tooltip")
 
 
 **So the SAML response is signed and the Service Provider has to verify this Signature with the IProvider public key :**
 
 
-![alt_text](images/image200.png "image_tooltip")
+![alt_text](images/image200.gif "image_tooltip")
 
 
 
@@ -5173,7 +5173,7 @@ Exploiting PUT Method
 * **The signature is not verified ( so you can tamper the response and connect with another account ) Or you can remove it (only the content of “SignatureValue” tag) .**
 * Injection de commentaire XML :
 * 
-![alt_text](images/image201.png "image_tooltip")
+![alt_text](images/image201.gif "image_tooltip")
 
 
     **--------------------------------------------------**
@@ -5181,23 +5181,23 @@ Exploiting PUT Method
 * Phar://
 
 
-![alt_text](images/image202.png "image_tooltip")
+![alt_text](images/image202.gif "image_tooltip")
 
 
 
-![alt_text](images/image203.png "image_tooltip")
+![alt_text](images/image203.gif "image_tooltip")
 
 
 
-![alt_text](images/image204.png "image_tooltip")
+![alt_text](images/image204.gif "image_tooltip")
 
 
 
-![alt_text](images/image205.png "image_tooltip")
+![alt_text](images/image205.gif "image_tooltip")
 
 
 
-![alt_text](images/image206.png "image_tooltip")
+![alt_text](images/image206.gif "image_tooltip")
 
 
 
@@ -5258,16 +5258,16 @@ Exploiting PUT Method
 * JS prototype Pollution :
 
 
-![alt_text](images/image207.png "image_tooltip")
+![alt_text](images/image207.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image208.png "image_tooltip")
+![alt_text](images/image208.gif "image_tooltip")
 
 
 
-![alt_text](images/image209.png "image_tooltip")
+![alt_text](images/image209.gif "image_tooltip")
 
 
 
@@ -5494,7 +5494,7 @@ Least ye have forgotten the user controls the client side logic. I can use a num
 
 
 
-![alt_text](images/image210.png "image_tooltip")
+![alt_text](images/image210.gif "image_tooltip")
 
 
 Session Storage et SESSION sont deux choses différentes.
@@ -6022,7 +6022,7 @@ Different Encoding type and Mechanism :
 ### Résumé :
 
 
-![alt_text](images/image214.png "image_tooltip")
+![alt_text](images/image214.gif "image_tooltip")
 
 
 
@@ -6166,7 +6166,7 @@ They must not be used for anything security critical, as it is often possible fo
 
 
 
-![alt_text](images/image216.png "image_tooltip")
+![alt_text](images/image216.gif "image_tooltip")
 
 
 
@@ -6921,11 +6921,11 @@ They must not be used for anything security critical, as it is often possible fo
     * %0A%0Dunion%0A%0D+%0A%0D+%0A%0Dselect+%0A%0D+1,2,3,4,5+--+-
 
 
-![alt_text](images/image221.png "image_tooltip")
+![alt_text](images/image221.gif "image_tooltip")
 
 
 
-![alt_text](images/image222.png "image_tooltip")
+![alt_text](images/image222.gif "image_tooltip")
 
 
 
@@ -6960,7 +6960,7 @@ They must not be used for anything security critical, as it is often possible fo
 * **The idea behind chunk-encoding ( with the header _Transfer-encoding: chunked _) is that the server can send content without waiting for the full response to be ready. The server sends the size of a chunk (in hexadecimal) followed by the chunk.**
 
 
-![alt_text](images/image223.png "image_tooltip")
+![alt_text](images/image223.gif "image_tooltip")
 
 
 * La méthode HTTP HEAD demande les en-têtes qui seraient retournés si la ressource spécifiée était demandée avec une méthode HTTP GET. Une telle requête peut être envoyée avant de procéder au téléchargement d'une  ressource volumineuse, par exemple pour économiser de la bande passante.
@@ -7003,11 +7003,11 @@ They must not be used for anything security critical, as it is often possible fo
 * Make sure that when building a signature, it can’t be reused itself in another component in the application.
 
 
-![alt_text](images/image225.png "image_tooltip")
+![alt_text](images/image225.gif "image_tooltip")
 
 
 
-![alt_text](images/image226.png "image_tooltip")
+![alt_text](images/image226.gif "image_tooltip")
 
 
 
@@ -7023,7 +7023,7 @@ Description
 
 
 
-![alt_text](images/image227.png "image_tooltip")
+![alt_text](images/image227.gif "image_tooltip")
 
 
 
@@ -7035,7 +7035,7 @@ Impact
 
 
 
-![alt_text](images/image228.png "image_tooltip")
+![alt_text](images/image228.gif "image_tooltip")
 
 
 * Incorrect Referrer Policy :
@@ -7044,19 +7044,19 @@ Impact
 
 
 
-![alt_text](images/image229.png "image_tooltip")
+![alt_text](images/image229.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image230.png "image_tooltip")
+![alt_text](images/image230.gif "image_tooltip")
 
 
 8.  ClickJacking
 * prevention
 
 
-![alt_text](images/image231.png "image_tooltip")
+![alt_text](images/image231.gif "image_tooltip")
 
 
 
@@ -7065,7 +7065,7 @@ Impact
 * Implementing JavaScript code in the page to attempt to prevent it being loaded in a frame (known as a "frame-buster").
 
 
-![alt_text](images/image232.png "image_tooltip")
+![alt_text](images/image232.gif "image_tooltip")
 
 
 
@@ -7196,7 +7196,7 @@ Impact
 * **The heap manager also needs to store metadata about the allocation.**
 
 
-![alt_text](images/image233.png "image_tooltip")
+![alt_text](images/image233.gif "image_tooltip")
 
 
 
@@ -7291,7 +7291,7 @@ smbclient  \\\\[IP]\\sambashare
 **During the enumeration phase ( of this functionality ), generally, we go for banner grabbing to identify a vulnerable version of the running service and the host operating system. You can do this via nmap :**
 
 
-![alt_text](images/image234.png "image_tooltip")
+![alt_text](images/image234.gif "image_tooltip")
 
 
 **There are so many automated scripts and tools available for SMB enumeration.**
@@ -7299,13 +7299,13 @@ smbclient  \\\\[IP]\\sambashare
 **If you get fail to enumerate the vulnerable state of SMB or found a patched version of SMB in the target machine, then we have “Brute force” as another option to gain unauthorized access to a remote machine.**
 
 
-![alt_text](images/image235.png "image_tooltip")
+![alt_text](images/image235.gif "image_tooltip")
 
 
 **hydra -L user.txt -P pass.txt 192.168.1.101 smb**
 
 
-![alt_text](images/image236.png "image_tooltip")
+![alt_text](images/image236.gif "image_tooltip")
 
 
 
@@ -7812,7 +7812,7 @@ smbclient  \\\\[IP]\\sambashare
 
 
     
-![alt_text](images/image237.png "image_tooltip")
+![alt_text](images/image237.gif "image_tooltip")
 
 
 **Sur ce script, Il suffit que l'utilisateur appuie sur les touches [CTRL]+[C]**
@@ -7832,25 +7832,25 @@ smbclient  \\\\[IP]\\sambashare
 **hijacking ).**
 
 
-![alt_text](images/image238.png "image_tooltip")
+![alt_text](images/image238.gif "image_tooltip")
 
 
 **                     Common Exploitation Techniques**
 
 
-![alt_text](images/image239.png "image_tooltip")
+![alt_text](images/image239.gif "image_tooltip")
 
 
 
-![alt_text](images/image240.png "image_tooltip")
+![alt_text](images/image240.gif "image_tooltip")
 
 
 
-![alt_text](images/image241.png "image_tooltip")
+![alt_text](images/image241.gif "image_tooltip")
 
 
 **	**
-![alt_text](images/image242.png "image_tooltip")
+![alt_text](images/image242.gif "image_tooltip")
 
 
 **-------------------------------------------------------------------**
@@ -7864,7 +7864,7 @@ smbclient  \\\\[IP]\\sambashare
 
 
 
-![alt_text](images/image243.png "image_tooltip")
+![alt_text](images/image243.gif "image_tooltip")
 
 
 
@@ -7872,13 +7872,13 @@ smbclient  \\\\[IP]\\sambashare
 * Système de volume logique de linux
 
 **	**
-![alt_text](images/image244.png "image_tooltip")
+![alt_text](images/image244.gif "image_tooltip")
 
 
 **Une image à peu près similaire :**
 
 
-![alt_text](images/image245.png "image_tooltip")
+![alt_text](images/image245.gif "image_tooltip")
 
 
 **UNIX-like operating systems distinguish between processes running within the kernel (running in kernel mode) and processes started by users (running in user mode) including the special user root. Memory belonging to the kernel can be accessed via the device files (/dev/kmem) and (/dev/mem).**
@@ -7888,7 +7888,7 @@ smbclient  \\\\[IP]\\sambashare
             Shared Library Hijacking :
 
 
-![alt_text](images/image246.png "image_tooltip")
+![alt_text](images/image246.gif "image_tooltip")
 
 
 
@@ -7898,7 +7898,7 @@ smbclient  \\\\[IP]\\sambashare
     * Test LD_PRELOAD (But you can’t execute arbitrary SUID libraries with this variable for security reasons).
 
 
-![alt_text](images/image247.png "image_tooltip")
+![alt_text](images/image247.gif "image_tooltip")
 
 
 			     with LD_PRELOAD not mentioned
@@ -7908,7 +7908,7 @@ smbclient  \\\\[IP]\\sambashare
             MISC
 
 
-![alt_text](images/image248.png "image_tooltip")
+![alt_text](images/image248.gif "image_tooltip")
 
 
 
@@ -7966,7 +7966,7 @@ même en mode _single-user_.
 
 
         
-![alt_text](images/image249.png "image_tooltip")
+![alt_text](images/image249.gif "image_tooltip")
 
 
 * In x86-64, memory addresses are 64 bits long but user space only uses the first 47 bits. If you specify an address above 0x00007fffffffffff, you’ll raise an exception.
@@ -8064,7 +8064,7 @@ Règles
 
 
                 
-![alt_text](images/image250.png "image_tooltip")
+![alt_text](images/image250.gif "image_tooltip")
 
 
     * **formateur %u : entier non-signé.**
@@ -8119,7 +8119,7 @@ Règles
 * **Pour exécuter un programme sur GDB et sur l’OS avec le même environnement :**
 
 
-![alt_text](images/image251.png "image_tooltip")
+![alt_text](images/image251.gif "image_tooltip")
 
 
 * L’ASLR
@@ -8131,7 +8131,7 @@ Règles
             **	ASLR (pour Address Space Layout Randomization) ! Il s’agit d’une protection qui fait varier les adresses de certaines zones mémoires (mais pas toutes) à chaque lancement du programme. **
 
 
-![alt_text](images/image252.png "image_tooltip")
+![alt_text](images/image252.gif "image_tooltip")
 
 
 
@@ -8145,11 +8145,11 @@ Règles
 * SSP ( stack smashing protector )
 
 
-![alt_text](images/image253.png "image_tooltip")
+![alt_text](images/image253.gif "image_tooltip")
 
 
 
-![alt_text](images/image254.png "image_tooltip")
+![alt_text](images/image254.gif "image_tooltip")
 
 
 
@@ -8157,7 +8157,7 @@ Règles
 * RELRO
 
 
-![alt_text](images/image255.png "image_tooltip")
+![alt_text](images/image255.gif "image_tooltip")
 
 
 * Use-After-Free : 
@@ -8169,13 +8169,13 @@ Règles
 
 
         
-![alt_text](images/image256.png "image_tooltip")
+![alt_text](images/image256.gif "image_tooltip")
 
 
 * **Pour trouver l’adresse de certaines fonctions, on peut utiliser cette commande sur gdb:**
 
     
-![alt_text](images/image257.png "image_tooltip")
+![alt_text](images/image257.gif "image_tooltip")
 
 
 * **Une protection contre cette exploitation ( Return-to-libc ) est l’ajout d’un byte 0 dans les adresses libc, empêchant notre exploit de faire passer le payload entier au programme vulnérable.**
@@ -8192,7 +8192,7 @@ Règles
 
 
 
-![alt_text](images/image258.png "image_tooltip")
+![alt_text](images/image258.gif "image_tooltip")
 
 
 
@@ -8202,7 +8202,7 @@ Règles
                 **exemple :**
 
 
-![alt_text](images/image259.png "image_tooltip")
+![alt_text](images/image259.gif "image_tooltip")
 
 
 **Shellcode en masse : [http://shell-storm.org/shellcode/](http://shell-storm.org/shellcode/)**
@@ -8211,7 +8211,7 @@ Règles
 ## Double free :
 
 
-![alt_text](images/image260.png "image_tooltip")
+![alt_text](images/image260.gif "image_tooltip")
 
 
 
@@ -8222,17 +8222,17 @@ Règles
 * **Each chunk has a size field indicating the size of the chunk.**
 
 
-![alt_text](images/image261.png "image_tooltip")
+![alt_text](images/image261.gif "image_tooltip")
 
 
 
-![alt_text](images/image262.png "image_tooltip")
+![alt_text](images/image262.gif "image_tooltip")
 
 
 **example : **
 
 
-![alt_text](images/image263.png "image_tooltip")
+![alt_text](images/image263.gif "image_tooltip")
 
 
 **Ici, sur chaque chunk de couleurs différentes, on a dans les méta données. le nombre 21 signifie :**
@@ -8263,11 +8263,11 @@ Règles
 
 
 
-![alt_text](images/image264.png "image_tooltip")
+![alt_text](images/image264.gif "image_tooltip")
 
 
 
-![alt_text](images/image265.png "image_tooltip")
+![alt_text](images/image265.gif "image_tooltip")
 
 
 
@@ -8338,14 +8338,14 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
 
-![alt_text](images/image266.png "image_tooltip")
+![alt_text](images/image266.gif "image_tooltip")
 
 
 **Fonctionnement des fastbins : **
 
 
 
-![alt_text](images/image267.png "image_tooltip")
+![alt_text](images/image267.gif "image_tooltip")
 
 
 
@@ -8353,7 +8353,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * l’attaque :
 
 
-![alt_text](images/image268.png "image_tooltip")
+![alt_text](images/image268.gif "image_tooltip")
 
 
 
@@ -8382,7 +8382,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * Le shellcode doit être PIC ( position independent code ), c-à-dire il ne doit contenir aucune adresse absolue car l’adresse où le shellcode est exécuté est généralement pas connue.
 
     
-![alt_text](images/image269.png "image_tooltip")
+![alt_text](images/image269.gif "image_tooltip")
 
 
 12.  Gdb command
@@ -8418,7 +8418,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
                 **	**
-![alt_text](images/image270.png "image_tooltip")
+![alt_text](images/image270.gif "image_tooltip")
 
 
 * **bt = Montre l’empilement des frames sur la piles.**
@@ -8437,17 +8437,17 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **Technique pour trouver l’offset jusqu'à EIP avec gdb-peda :**
 
     
-![alt_text](images/image271.png "image_tooltip")
+![alt_text](images/image271.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image272.png "image_tooltip")
+![alt_text](images/image272.gif "image_tooltip")
 
 
 
         
-![alt_text](images/image273.png "image_tooltip")
+![alt_text](images/image273.gif "image_tooltip")
 
 
 
@@ -8468,7 +8468,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * Differents instructions
 
 
-![alt_text](images/image274.png "image_tooltip")
+![alt_text](images/image274.gif "image_tooltip")
 
 
 
@@ -8678,15 +8678,15 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **CPSR : register for operating processor status. It contains 2 bits that encode whether ARM inst., Thumb inst., or Jazelle opcodes are being executed.**
 
 
-![alt_text](images/image275.png "image_tooltip")
+![alt_text](images/image275.gif "image_tooltip")
 
 
 
-![alt_text](images/image276.png "image_tooltip")
+![alt_text](images/image276.gif "image_tooltip")
 
 
 
-![alt_text](images/image277.png "image_tooltip")
+![alt_text](images/image277.gif "image_tooltip")
 **		**
 
 
@@ -8695,7 +8695,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
         
-![alt_text](images/image278.png "image_tooltip")
+![alt_text](images/image278.gif "image_tooltip")
 
 
 
@@ -8722,7 +8722,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 14. Assembleur x86
 
     
-![alt_text](images/image279.png "image_tooltip")
+![alt_text](images/image279.gif "image_tooltip")
 
 
 * **In addition to the GPRs, EIP, and EFLAGS, there are also registers that control important low-level system mechanisms such as virtual memory, interrupts, and debugging. **
@@ -8745,7 +8745,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **Little and big endian :**
 
             
-![alt_text](images/image280.png "image_tooltip")
+![alt_text](images/image280.gif "image_tooltip")
 
 
 * **Instruction CALL [address] = PUSH “EIP” + Jump [address].**
@@ -8958,7 +8958,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
             
-![alt_text](images/image281.png "image_tooltip")
+![alt_text](images/image281.gif "image_tooltip")
 
 
 * **Les adresses des routines correspondant à toutes les interruptions sont stockées dans une zone de la**
@@ -9009,7 +9009,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **Pour la multiplication signée, il y trois syntaxes :**
 
             
-![alt_text](images/image282.png "image_tooltip")
+![alt_text](images/image282.gif "image_tooltip")
 
 
 
@@ -9017,17 +9017,17 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
 
-![alt_text](images/image283.png "image_tooltip")
+![alt_text](images/image283.gif "image_tooltip")
 
 
 **				    **
 
 **Conditional Jump in x86**
-![alt_text](images/image284.png "image_tooltip")
+![alt_text](images/image284.gif "image_tooltip")
 
 
 
-![alt_text](images/image285.png "image_tooltip")
+![alt_text](images/image285.gif "image_tooltip")
 
 
 
@@ -9098,11 +9098,11 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 **general-purpose registers in x86  and  x86-64:**
 
 
-![alt_text](images/image286.png "image_tooltip")
+![alt_text](images/image286.gif "image_tooltip")
 
 
 
-![alt_text](images/image287.png "image_tooltip")
+![alt_text](images/image287.gif "image_tooltip")
 
 
 
@@ -9638,7 +9638,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
 
-![alt_text](images/image289.png "image_tooltip")
+![alt_text](images/image289.gif "image_tooltip")
 
 
 
@@ -9690,7 +9690,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
 
-![alt_text](images/image290.png "image_tooltip")
+![alt_text](images/image290.gif "image_tooltip")
 
 
 
@@ -9713,7 +9713,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
     
-![alt_text](images/image291.png "image_tooltip")
+![alt_text](images/image291.gif "image_tooltip")
 
 
 
@@ -9722,7 +9722,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 **	It’s recommended to choose an IV as NULL ( “00000000” ).**
 
 **	**
-![alt_text](images/image292.png "image_tooltip")
+![alt_text](images/image292.gif "image_tooltip")
 
 
 **	Using CBC-MAC without some restrictions can break the security of the **
@@ -9734,17 +9734,17 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
         
-![alt_text](images/image293.png "image_tooltip")
+![alt_text](images/image293.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image294.png "image_tooltip")
+![alt_text](images/image294.gif "image_tooltip")
 
 
 
         
-![alt_text](images/image295.png "image_tooltip")
+![alt_text](images/image295.gif "image_tooltip")
 
 
 
@@ -9752,7 +9752,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
         * Mode opératoire CTR :
 
 
-![alt_text](images/image296.png "image_tooltip")
+![alt_text](images/image296.gif "image_tooltip")
 
 
 
@@ -9766,7 +9766,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * Mode opératoire ECB :
 
 
-![alt_text](images/image297.png "image_tooltip")
+![alt_text](images/image297.gif "image_tooltip")
 
 
 
@@ -9789,7 +9789,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
     
-![alt_text](images/image298.png "image_tooltip")
+![alt_text](images/image298.gif "image_tooltip")
 
 
 
@@ -9810,7 +9810,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
                 **équation courbe elliptique : **
-![alt_text](images/image299.png "image_tooltip")
+![alt_text](images/image299.gif "image_tooltip")
 
 
 
@@ -9821,11 +9821,11 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 ### 				   DH avec courbe elliptique : 
 
 
-![alt_text](images/image300.png "image_tooltip")
+![alt_text](images/image300.gif "image_tooltip")
 
 
 
-![alt_text](images/image301.png "image_tooltip")
+![alt_text](images/image301.gif "image_tooltip")
 
 
 
@@ -9842,7 +9842,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
 
-![alt_text](images/image302.png "image_tooltip")
+![alt_text](images/image302.gif "image_tooltip")
 
 
 
@@ -9859,7 +9859,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
         
-![alt_text](images/image303.png "image_tooltip")
+![alt_text](images/image303.gif "image_tooltip")
 
 
 * **Ce protocole ( DH ) est vulnérable à « l'[attaque de l'homme du milieu](https://fr.wikipedia.org/wiki/Attaque_de_l%27homme_du_milieu) » ( exemple sans C.Elliptique ): **
@@ -9882,7 +9882,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 **The schematic of AES structure**
 
 
-![alt_text](images/image304.png "image_tooltip")
+![alt_text](images/image304.gif "image_tooltip")
 
 
 
@@ -9890,7 +9890,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **Each round comprises four sub-processes. The first round process is depicted below :**
 
 
-![alt_text](images/image305.png "image_tooltip")
+![alt_text](images/image305.gif "image_tooltip")
 
 
 
@@ -9934,7 +9934,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
 
-![alt_text](images/image307.png "image_tooltip")
+![alt_text](images/image307.gif "image_tooltip")
 
 
 
@@ -9955,7 +9955,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * PKCS#5 and PKCS#7 padding :
 
     
-![alt_text](images/image308.png "image_tooltip")
+![alt_text](images/image308.gif "image_tooltip")
 
 
 
@@ -9982,11 +9982,11 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 ##               Hash length attack extension
 
 
-![alt_text](images/image309.png "image_tooltip")
+![alt_text](images/image309.gif "image_tooltip")
 
 
 
-![alt_text](images/image310.png "image_tooltip")
+![alt_text](images/image310.gif "image_tooltip")
 
 
 
@@ -10049,15 +10049,15 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 **Génération des clés pub/priv :**
 
 
-![alt_text](images/image311.png "image_tooltip")
+![alt_text](images/image311.gif "image_tooltip")
 
 
 
-![alt_text](images/image312.png "image_tooltip")
+![alt_text](images/image312.gif "image_tooltip")
 
 
 
-![alt_text](images/image313.png "image_tooltip")
+![alt_text](images/image313.gif "image_tooltip")
 
 
 **k is named a nonce here.**
@@ -10065,7 +10065,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 **En effet, le fait que le logarithme discret ( sur courbe elliptique ) soit un problème difficile nous assure qu’un attaquant ne pourra pas retrouver la clé privé de Bob en un temps raisonnable**
 
 
-![alt_text](images/image314.png "image_tooltip")
+![alt_text](images/image314.gif "image_tooltip")
 
 
 **Attack on ECDSA :**
@@ -10138,7 +10138,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
 
-![alt_text](images/image315.png "image_tooltip")
+![alt_text](images/image315.gif "image_tooltip")
 
 
 
@@ -10156,12 +10156,12 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
     
-![alt_text](images/image316.png "image_tooltip")
+![alt_text](images/image316.gif "image_tooltip")
 
 
 
     
-![alt_text](images/image317.png "image_tooltip")
+![alt_text](images/image317.gif "image_tooltip")
 
 
 
@@ -10190,7 +10190,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **Verify that known insecure block modes (i.e. ECB, etc.) and padding modes (i.e. PKCS#1 v1.5, etc.) are not used. Verify that all cryptographic modules fail securely, and errors are handled in a way that does not enable Padding Oracle attacks.**
 
     
-![alt_text](images/image318.png "image_tooltip")
+![alt_text](images/image318.gif "image_tooltip")
 
 
 * GCM ( Galois Counter Mode )
@@ -10203,7 +10203,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 **GCM est défini pour les chiffrements par bloc avec des tailles de bloc de 128 bits.**
 
 
-![alt_text](images/image319.png "image_tooltip")
+![alt_text](images/image319.gif "image_tooltip")
 
 
 
@@ -10240,7 +10240,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 
 
     
-![alt_text](images/image320.png "image_tooltip")
+![alt_text](images/image320.gif "image_tooltip")
 
 
 * "||" désigne une concaténation.
@@ -10330,7 +10330,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **Syntax Volatility command :**
 
     
-![alt_text](images/image321.png "image_tooltip")
+![alt_text](images/image321.gif "image_tooltip")
 
 
 
@@ -10548,7 +10548,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **When you are suggested profiles ( by imageinfo plugins ), how to choose the correct one ? One of the technique is to compare the value of the service pack field like the image below : **
 
 
-![alt_text](images/image322.png "image_tooltip")
+![alt_text](images/image322.gif "image_tooltip")
 
 
 
@@ -10556,7 +10556,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **Difference in name profiles :**
 
 
-![alt_text](images/image323.png "image_tooltip")
+![alt_text](images/image323.gif "image_tooltip")
 
 
 **	the number of after the “_” is the version of the operating system ( version**
@@ -10570,35 +10570,35 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **It’s different when you work on a Virtual machine file and normal operating system file.**
 
 
-![alt_text](images/image324.png "image_tooltip")
+![alt_text](images/image324.gif "image_tooltip")
 
 
 **You have to choose the right tool ( to make live captures ) depending on what devices you are focusing on ( SSD, Disk, RAM, VM, …)**
 
 
-![alt_text](images/image325.png "image_tooltip")
+![alt_text](images/image325.gif "image_tooltip")
 
 
 
-![alt_text](images/image326.png "image_tooltip")
+![alt_text](images/image326.gif "image_tooltip")
 
 
 **You can use these files in Volatility**
 
 
-![alt_text](images/image327.png "image_tooltip")
+![alt_text](images/image327.gif "image_tooltip")
 
 
 **Some of Windows Core processes :**
 
 
-![alt_text](images/image328.png "image_tooltip")
+![alt_text](images/image328.gif "image_tooltip")
 
 
 **An other core process :**
 
 
-![alt_text](images/image329.png "image_tooltip")
+![alt_text](images/image329.gif "image_tooltip")
 
 
 
@@ -10608,7 +10608,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 **By looking for any deviations ( of each characteristic ) from known normal of these processes, sometimes you are able to easily find evidence of attacker activity malware and so on.**
 
 
-![alt_text](images/image330.png "image_tooltip")
+![alt_text](images/image330.gif "image_tooltip")
 
 
 
@@ -10910,11 +10910,11 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
     * **If you have this variable running as root, you can run your own code ( and so invoke a shell ): **
 
 
-![alt_text](images/image331.png "image_tooltip")
+![alt_text](images/image331.gif "image_tooltip")
 
 
 
-![alt_text](images/image332.png "image_tooltip")
+![alt_text](images/image332.gif "image_tooltip")
 
 
 **Here , the command find has to be running as sudo permission.**
@@ -10929,7 +10929,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **3) Looking for some Shared library that the program try to open or access :**
 
 
-![alt_text](images/image333.png "image_tooltip")
+![alt_text](images/image333.gif "image_tooltip")
 
 
 
@@ -10937,7 +10937,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **4) Write your fake library like this :**
 
 
-![alt_text](images/image334.png "image_tooltip")
+![alt_text](images/image334.gif "image_tooltip")
 
 
 
@@ -10963,11 +10963,11 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **4) Write your own payloads ( In this example, this is a fake “service” program ) that will be executed instead of the real service program.**
 
 
-![alt_text](images/image335.png "image_tooltip")
+![alt_text](images/image335.gif "image_tooltip")
 
 
 
-![alt_text](images/image336.png "image_tooltip")
+![alt_text](images/image336.gif "image_tooltip")
 
 
 
@@ -10975,7 +10975,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **5) Put your payload directory at the first position in PATH environment variable :**
 
 
-![alt_text](images/image337.png "image_tooltip")
+![alt_text](images/image337.gif "image_tooltip")
 
 
 
@@ -10985,7 +10985,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 **				Another way to perform this : **
 
 **﻿**
-![alt_text](images/image338.png "image_tooltip")
+![alt_text](images/image338.gif "image_tooltip")
 
 
 
@@ -10994,15 +10994,15 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * **Si les commandes nano,cp .. ( commande d'écriture ) sont utilisables en mode SUID-bit, on peut l’utiliser pour créer un nouveau user dans le fichier /etc/passwd avec les droits root et se connecter dessus :**
 
 
-![alt_text](images/image339.png "image_tooltip")
+![alt_text](images/image339.gif "image_tooltip")
 
 
 
-![alt_text](images/image340.png "image_tooltip")
+![alt_text](images/image340.gif "image_tooltip")
 
 
 
-![alt_text](images/image341.png "image_tooltip")
+![alt_text](images/image341.gif "image_tooltip")
 
 
 
@@ -11010,7 +11010,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * Exploiting SUID permission in cpulimit command :
 
     
-![alt_text](images/image342.png "image_tooltip")
+![alt_text](images/image342.gif "image_tooltip")
 
 
 
@@ -11021,7 +11021,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
 * RCE through mysql command on a writeable directory :
 
 
-![alt_text](images/image343.png "image_tooltip")
+![alt_text](images/image343.gif "image_tooltip")
 
 
 **URL ( in the context of the screenshot ) : 	[http://192.168.1.167:8080/raj.php?cmd=id](http://192.168.1.167:8080/raj.php?cmd=id)**
@@ -11098,15 +11098,15 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 * Exploitation :
 
 
-![alt_text](images/image344.png "image_tooltip")
+![alt_text](images/image344.gif "image_tooltip")
 
 
 
-![alt_text](images/image345.png "image_tooltip")
+![alt_text](images/image345.gif "image_tooltip")
 
 
 
-![alt_text](images/image346.png "image_tooltip")
+![alt_text](images/image346.gif "image_tooltip")
 
 
 
@@ -11375,7 +11375,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 ## Environnement d'exécution :
 
 
-![alt_text](images/image347.png "image_tooltip")
+![alt_text](images/image347.gif "image_tooltip")
 
 
 
@@ -11386,13 +11386,13 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 
 
 
-![alt_text](images/image348.png "image_tooltip")
+![alt_text](images/image348.gif "image_tooltip")
 
-![alt_text](images/image349.png "image_tooltip")
+![alt_text](images/image349.gif "image_tooltip")
 
 
 
-![alt_text](images/image350.png "image_tooltip")
+![alt_text](images/image350.gif "image_tooltip")
 
 
 
@@ -11617,9 +11617,9 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 
 
 
-![alt_text](images/image351.png "image_tooltip")
+![alt_text](images/image351.gif "image_tooltip")
 
-![alt_text](images/image352.png "image_tooltip")
+![alt_text](images/image352.gif "image_tooltip")
 
 
 * Ping sweep :
@@ -11629,7 +11629,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 **	Example :**
 
 **	**
-![alt_text](images/image353.png "image_tooltip")
+![alt_text](images/image353.gif "image_tooltip")
 
 
 
@@ -11641,7 +11641,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 **	Example :**
 
 **	**
-![alt_text](images/image354.png "image_tooltip")
+![alt_text](images/image354.gif "image_tooltip")
 
 
 
@@ -11652,13 +11652,13 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 **Selon la définition officielle, GraphQL est un langage de requêtes pour API ainsi qu’un environnement pour exécuter ces requêtes.**
 
 
-![alt_text](images/image355.png "image_tooltip")
+![alt_text](images/image355.gif "image_tooltip")
 
 
 **Unlike REST APIs (where the client first interacts with arbitrary code written by programmer(s) and this code reaches the database); the client first interacts with GraphQL, which in turn interacts with arbitrary code and ultimately ends talking to the database.**
 
 
-![alt_text](images/image356.png "image_tooltip")
+![alt_text](images/image356.gif "image_tooltip")
 
 
 **This change in the architecture has a lot of advantages tied to it, for example it’s possible to get all the data the client needs in a single request (whereas REST APIs need to perform multiple requests).**
@@ -11686,7 +11686,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 
 
 
-![alt_text](images/image357.png "image_tooltip")
+![alt_text](images/image357.gif "image_tooltip")
 
 
 
@@ -11806,7 +11806,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 * MISC
 
 
-![alt_text](images/image358.png "image_tooltip")
+![alt_text](images/image358.gif "image_tooltip")
 
 
 
@@ -11814,7 +11814,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 * **Actually, when looking for vulnerabilities in shell code, the first thing to do is look for unquoted variables. It's easy to spot, often a good candidate, generally easy to track back to attacker-controlled data. There's an infinite number of ways an unquoted variable can turn into a vulnerability.**
 
 
-![alt_text](images/image359.png "image_tooltip")
+![alt_text](images/image359.gif "image_tooltip")
 
 
 
@@ -11823,15 +11823,15 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 * MISC
 
 
-![alt_text](images/image360.png "image_tooltip")
+![alt_text](images/image360.gif "image_tooltip")
 
 
 
-![alt_text](images/image361.png "image_tooltip")
+![alt_text](images/image361.gif "image_tooltip")
 
 
 
-![alt_text](images/image362.png "image_tooltip")
+![alt_text](images/image362.gif "image_tooltip")
 
 
 
@@ -11839,7 +11839,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 * Bad regular expression :
 
     
-![alt_text](images/image363.png "image_tooltip")
+![alt_text](images/image363.gif "image_tooltip")
 
 
 
@@ -11847,7 +11847,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 
 
      
-![alt_text](images/image364.png "image_tooltip")
+![alt_text](images/image364.gif "image_tooltip")
 
 
 * 
@@ -11863,12 +11863,12 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 28. Others
 
 
-![alt_text](images/image365.png "image_tooltip")
+![alt_text](images/image365.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image366.png "image_tooltip")
+![alt_text](images/image366.gif "image_tooltip")
 
 
 * Recovering saved macOS user passwords
@@ -11880,7 +11880,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 
 
 
-![alt_text](images/image367.png "image_tooltip")
+![alt_text](images/image367.gif "image_tooltip")
 
 
 
@@ -11893,7 +11893,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 ## Tunneling with Chisel :
 
 
-![alt_text](images/image368.png "image_tooltip")
+![alt_text](images/image368.gif "image_tooltip")
 
 
 
@@ -12037,7 +12037,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 
 
 
-![alt_text](images/image374.png "image_tooltip")
+![alt_text](images/image374.gif "image_tooltip")
 
 
 
@@ -12045,7 +12045,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 * DNSSEC
 
 
-![alt_text](images/image375.png "image_tooltip")
+![alt_text](images/image375.gif "image_tooltip")
 
 
 
@@ -12160,7 +12160,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 * Bypass root detection :
 
 
-![alt_text](images/image376.png "image_tooltip")
+![alt_text](images/image376.gif "image_tooltip")
 
 
 
@@ -12170,7 +12170,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 **	**
 
 
-![alt_text](images/image377.png "image_tooltip")
+![alt_text](images/image377.gif "image_tooltip")
 
 
 
@@ -12182,7 +12182,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 * **Here the differences between using java itself and java for android :**
 
 
-![alt_text](images/image378.png "image_tooltip")
+![alt_text](images/image378.gif "image_tooltip")
 
 
 
@@ -12304,7 +12304,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 
 
 
-![alt_text](images/image379.png "image_tooltip")
+![alt_text](images/image379.gif "image_tooltip")
 
 
 
@@ -12328,9 +12328,9 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 **By default, containers are run as root. dockerd (the docker daemon) runs as root, and this is normal. root is needed to configure certain container aspects needed to function correctly. There may be ways of running without root, but it’s fine as it is.**
 
 **Le problème majeur, souvent négligé dans l’engouement qui prévaut aujourd’hui pour les conteneurs, est celui de la sécurité car il partage de ressource avec l’hôte et de se fait des privilege trop élevé peut compromettre l'hôte. **
-![alt_text](images/image380.png "image_tooltip")
+![alt_text](images/image380.gif "image_tooltip")
 
-![alt_text](images/image381.png "image_tooltip")
+![alt_text](images/image381.gif "image_tooltip")
 
 
 
@@ -12541,19 +12541,19 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 * Registre Docker
 
 
-![alt_text](images/image382.png "image_tooltip")
+![alt_text](images/image382.gif "image_tooltip")
 
 
 * Docker Compose
 
 
-![alt_text](images/image383.png "image_tooltip")
+![alt_text](images/image383.gif "image_tooltip")
 
 
 * Dockerfile
 
 
-![alt_text](images/image384.png "image_tooltip")
+![alt_text](images/image384.gif "image_tooltip")
 
 
 
@@ -12642,7 +12642,7 @@ Combined with DAC_READ_SEARCH capability, it can be exploited to escape a contai
 
 
 
-![alt_text](images/image385.png "image_tooltip")
+![alt_text](images/image385.gif "image_tooltip")
 
 
 
@@ -12690,25 +12690,25 @@ Combined with DAC_READ_SEARCH capability, it can be exploited to escape a contai
 **ACLs are used to grant basic read/write permissions to other AWS accounts. Each bucket and object has an ACL associated with it.**
 
 
-![alt_text](images/image386.png "image_tooltip")
+![alt_text](images/image386.gif "image_tooltip")
 
 
 **S3 supports a set of predefined grants, known as canned ACLs**
 
 
-![alt_text](images/image387.png "image_tooltip")
+![alt_text](images/image387.gif "image_tooltip")
 
 
 
-![alt_text](images/image388.png "image_tooltip")
+![alt_text](images/image388.gif "image_tooltip")
 
 
 
-![alt_text](images/image389.png "image_tooltip")
+![alt_text](images/image389.gif "image_tooltip")
 
 
 
-![alt_text](images/image390.png "image_tooltip")
+![alt_text](images/image390.gif "image_tooltip")
 
 
 
@@ -12946,7 +12946,7 @@ Tools
 * WPA PSK
 
 
-![alt_text](images/image392.png "image_tooltip")
+![alt_text](images/image392.gif "image_tooltip")
 
 
 
@@ -12954,13 +12954,13 @@ Tools
 * WPA ou WPA2
 
 
-![alt_text](images/image393.png "image_tooltip")
+![alt_text](images/image393.gif "image_tooltip")
 
 
 * WPA-Personal vs WPA-Entreprise
 
 
-![alt_text](images/image394.png "image_tooltip")
+![alt_text](images/image394.gif "image_tooltip")
 
 
 
@@ -12971,12 +12971,12 @@ Tools
 * WPA/WPA2 MGT
 
 
-![alt_text](images/image395.png "image_tooltip")
+![alt_text](images/image395.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image396.png "image_tooltip")
+![alt_text](images/image396.gif "image_tooltip")
 
 
 * Protocole WPS
@@ -12987,7 +12987,7 @@ Tools
 * **Access Point (AP) est un appareil permettant de nous relier au switch par ondes radio à la place de câbles :**
 
     
-![alt_text](images/image397.png "image_tooltip")
+![alt_text](images/image397.gif "image_tooltip")
 
 
 * BSSID
@@ -12996,7 +12996,7 @@ Tools
 * **Un ensemble formé par le point d'accès (AP) et les stations situés dans sa zone de couverture est appelé ensemble de services de base (BSS).**
 
 
-![alt_text](images/image398.png "image_tooltip")
+![alt_text](images/image398.gif "image_tooltip")
 
 
 
@@ -13037,7 +13037,7 @@ Pré-requis :
     * airodump-ng wlan0mon
 
 
-![alt_text](images/image399.png "image_tooltip")
+![alt_text](images/image399.gif "image_tooltip")
 
 
 
@@ -13054,7 +13054,7 @@ Pré-requis :
 		Now, you have to wait until you get a Handshake :
 
 
-![alt_text](images/image400.png "image_tooltip")
+![alt_text](images/image400.gif "image_tooltip")
 
 
 
@@ -13108,12 +13108,12 @@ Pré-requis :
 
 ## 
 Etape Dev et Ops :		
-![alt_text](images/image401.png "image_tooltip")
+![alt_text](images/image401.gif "image_tooltip")
 
 
 
 
-![alt_text](images/image402.png "image_tooltip")
+![alt_text](images/image402.gif "image_tooltip")
 
 
 
@@ -13154,7 +13154,7 @@ Etape Dev et Ops :
 
 
 
-![alt_text](images/image403.png "image_tooltip")
+![alt_text](images/image403.gif "image_tooltip")
 
 
 
@@ -13201,7 +13201,7 @@ Code Review : Strategies :
     * **By picking up a function (ideally directly accessible form an user) and reviewing every function that is called and doing the same process for the called functions.**
 
 
-![alt_text](images/image405.png "image_tooltip")
+![alt_text](images/image405.gif "image_tooltip")
 
 
 
@@ -13212,7 +13212,7 @@ Code Review : Strategies :
     * **Picking a functionality and reviewing the code that is linked with.**
 
 
-![alt_text](images/image406.png "image_tooltip")
+![alt_text](images/image406.gif "image_tooltip")
 
 
 
@@ -13225,7 +13225,7 @@ Code Review : Reviewing :
     * Function context :
 
 
-![alt_text](images/image407.png "image_tooltip")
+![alt_text](images/image407.gif "image_tooltip")
 
 
 
@@ -15546,7 +15546,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 
 
 * BB - APK :
-![alt_text](images/image423.png "image_tooltip")
+![alt_text](images/image423.gif "image_tooltip")
 
 
 
@@ -15623,14 +15623,14 @@ Subresource integrity (SRI) allows you to pin a hash of the contents of the file
 Example :
 
 
-![alt_text](images/image424.png "image_tooltip")
+![alt_text](images/image424.gif "image_tooltip")
 
 
 
 ## Document Relationships
 
 
-![alt_text](images/image425.png "image_tooltip")
+![alt_text](images/image425.gif "image_tooltip")
 
 
 
@@ -15643,7 +15643,7 @@ If you're writing SQL queries yourself, make sure that you're using prepared sta
 Furthermore, make sure you're not using emulated prepared statements.
 
 
-![alt_text](images/image426.png "image_tooltip")
+![alt_text](images/image426.gif "image_tooltip")
 
 
 
@@ -16195,12 +16195,12 @@ Client-side Testing
 * DOM based XSS Finder (extension CHROME) (FUZZ)
 
                 
-![alt_text](images/image430.png "image_tooltip")
+![alt_text](images/image430.gif "image_tooltip")
 
 
 
                 
-![alt_text](images/image431.png "image_tooltip")
+![alt_text](images/image431.gif "image_tooltip")
 
 
         * DOM Invader (en ouvrant le navigateur depuis BURP)

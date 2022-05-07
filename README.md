@@ -6,10 +6,10 @@ Autor :  Comores11
 
 Contribution : Edra
 
--   [Google Doc]()
--   [PDF]()
--   [HTML]()
--   [Markdown]() 
+-   [Google Doc](https://docs.google.com/document/d/18H4EVUJ4OQtIumc0rRm63dPNiclnmM53a-CNs4O-O-A/)
+-   [PDF]() - IN PROGRESS
+-   [HTML]() IN PROGRESS
+-   [Markdown]() - IN PROGRESS
 
 
 **1) Linux commands**

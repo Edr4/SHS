@@ -141,7 +141,7 @@ File Uploads
 -	MISC	
 MISC checklist
 
-**7)	Javascript security	**
+**7)	Javascript security**
 -	CDN in JS:	
 Description	
 Impact	

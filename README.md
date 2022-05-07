@@ -149,7 +149,7 @@ TCP header FLag
 - Description	
 - Impact	
 -	Incorrect Referrer Policy :
--		
+		
 **8)	ClickJacking**
 -	prevention
 

@@ -3,6 +3,7 @@
 +400 pages of personal notes on cybersecurity, hacking
 
 Autor :  Comores11
+
 Contribution : Edra
 
 -   [Google Doc]()
@@ -15,7 +16,7 @@ Contribution : Edra
 -	list
 -	Nmap commands
 
-**2)	About PHP	**
+**2)	About PHP**
 -	PHP - Difference between ‘ and “
 -	PHP - Path and dot truncation
 -	PHP - Loose comparaison

@@ -14,13 +14,16 @@ Contribution : Edra
 **1) Linux commands**
 -	list
 -	Nmap commands
+-	
 **2)	About PHP	**
 -	PHP - Difference between ‘ and “
 -	PHP - Path and dot truncation
 -	PHP - Loose comparaison
 -	PHP - preg_replace exploit
 -	Cookies vs. sessions ( no PHP )
+-	
 **3)	Iptables**
+
 **4)	Network**
 TCP header FLag
 -	Modèle TCP/IP
@@ -28,6 +31,7 @@ TCP header FLag
 -	Protocole TLS ( Transport Layer Security ) / SSL ( Secure Sockets Layer )
 -	Port Knocking
 -	Network File System (NFS)
+-	
 **5)	Web**
 -	(Se/Deser)-ialisation
 Some tools
@@ -134,14 +138,17 @@ Unvalidated Redirects and Forwards
 File Uploads	
 -	Password Storage	
 -	MISC	
-MISC checklist	
+MISC checklist
+
 **7)	Javascript security	**
 -	CDN in JS:	
 Description	
 Impact	
--	Incorrect Referrer Policy :	
+-	Incorrect Referrer Policy :
+-		
 **8)	ClickJacking**
 -	prevention	228
+-	
 **9)	Linux**
 -	/etc/passwd file :	
 Some Environment variables in Linux:	
@@ -157,7 +164,9 @@ File System in Linux
 -	Système de volume logique de linux	
 Shared Library Hijacking :	
 MISC	
+
 **10)	Linux Hardening Rules**
+
 **11)	PWN - Exploit mistakes in programming and execution	**
 -	Memory leak	
 -	Exploits de type “format strings”:	
@@ -174,17 +183,22 @@ Double free :
 Code execution techniques :	
 -	The Fastbin dups ( duplication ) attack	
 MISC	
+
 **12)	Gdb command**
+
 **13)	ARM**
 -	Differents instructions	
 CPSR	
 condition codes :	
 MISC	
+
 **14)	Assembleur x86**
 MISC	
+
 **15)	Stéganographie**
 Steganography tools	
 Some useful commands	
+
 **16)	Cryptographie**
 Cryptography tools	
 Useful Commands	
@@ -221,12 +235,14 @@ Prévention
 -	GCM ( Galois Counter Mode )	
 -	Le Salt	
 MISC	
+
 **17)	Forensic**	
 Some tools and command	
 -	Volatility	
 Some Volatility command and plugin	
 -	Les Rootkit :	
 -	MISC	
+
 **18)	Linux Privilege Escalation**
 System enumeration command :	
 -	Kernel exploitation :	
@@ -242,39 +258,51 @@ System enumeration command :
 -	Python Library Hijacking	
 Method 1 : From Bad Write Permission	
 Method 2 : Priority Order	
-Method 3 : PYTHONPATH Environment Variable	
+Method 3 : PYTHONPATH Environment Variable
+
 **20)	Format ELF**
 Section in ELF	
-Environnement d'exécution :	
+Environnement d'exécution :
+
 **21)	Python**
 -	MISC
+-	
 **22)	OSINT**
 Useful tools	
+
 **23)	Metasploit**
 -	Autoroute exploit :	
 -	Ping sweep :
--	auxiliary tcp port scanner :	
+-	auxiliary tcp port scanner :
+-		
 **24)	GraphQL**
 -	Definiton
 -	Common GraphQL endpoint :
 -	GraphQL injection :	
 -	Useful Introspection query	
 -	MISC
+-	
 **25)	Bash**	
 -	MISC	
+-	
 **26)	Ruby-On-Rails**
 -	MISC	
+-	
 **27)	PowerShell**
 -	Definition
+-	
 **28)	Others**	
 -	Recovering saved macOS user passwords	
 -	Mass assignment	
 Tunneling with Chisel :	
+
 **29)	Active Directory**
+
 **30)	DNS**
 Différents Commands
 -	DNSSEC
 -	MISC	
+
 **31)	Android**
 Tools	
 -	Decompile APK
@@ -285,14 +313,17 @@ Tools
 -	Rooting and Jailbreaking :
 -	Signing mobile application :	
 MISC	
+
 **32)	IOS**
 Tools	
 -	MISC	
+
 **33)	Reverse**
 -	Techniques d’anti-reverse :	
 - Polymorphisme et métamorphisme	
 - Packer	
 - Anti-virtualisation et anti-émulation	
+
 **34)	Container Security**	
 -	Definition	
 - Some Commands	
@@ -301,11 +332,14 @@ Tools
 -	Dockerfile	
 - Container Breakouts :	
 -	Misc
+
 **35)	S3 (Simple Storage Service) AWS (Amazon Web Services)**
 -	Définition	
 -	S3 Buckets	
 -	ACL ( Access control list )	
+
 **36)	Smart Contract**	
+
 **37)	Windows in general**
 Commands	
 -	NT hash	
@@ -316,6 +350,7 @@ DLL Hijacking techniques
 UAC bypass techniques	
 -	Process migration :	
 -	Misc	
+
 **38)	Wifi**	
 Tools	
 -	SSID	
@@ -330,6 +365,7 @@ Tools
 -	BSS	
 -	Password Cracking ( WPA/WPA2 BForcing )	
 Steps :	
+
 **39)	DevOps / DevOpsSec**
 -	Définition	
 Etape Dev et Ops :	 	
@@ -337,10 +373,12 @@ Version Control System :
 Testing :	
 Intégration Continue :	
 Infrastructure as Code	
+
 **40)	Audit en boîte blanche**
 Code Review : Strategies :	
 Code Review : Reviewing :	
 -	Méthode 1	 
+
 **41)	Bug bounty Tips**
 -	BB - Recon (file, url, subdomains):	
 -	BB - CSRF Bypass protection :	
@@ -391,5 +429,6 @@ Testing Web Messaging	450
 Testing for Cross Site Script Inclusion	
 Testing for Host Header Injection	
 Testing for SQLi	
+
 **42 ) Search Engine**
 

@@ -164,7 +164,7 @@ TCP header FLag
 - 	/etc/shadow file fields	
 -	Système de volume logique de linux	
 - 	Shared Library Hijacking :	
-- 		MISC	
+- 	MISC	
 
 **10)	Linux Hardening Rules**
 

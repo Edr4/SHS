@@ -2,17 +2,18 @@
 
 +400 pages of personal notes on cybersecurity, hacking
 
-Autor :  Comores11
 
-Contribution : Edra
 
-------
 -   [Google Doc](https://docs.google.com/document/d/18H4EVUJ4OQtIumc0rRm63dPNiclnmM53a-CNs4O-O-A/)
 -   [PDF]() - IN PROGRESS
 -   [HTML]() IN PROGRESS
 -   [Markdown]() - IN PROGRESS
 
-------
+Autor :  Comores11
+
+Contribution : Edra
+
+###Summary
 
 **1) Linux commands**
 -	list

@@ -14,14 +14,14 @@ Contribution : Edra
 **1) Linux commands**
 -	list
 -	Nmap commands
--	
+
 **2)	About PHP	**
 -	PHP - Difference between ‘ and “
 -	PHP - Path and dot truncation
 -	PHP - Loose comparaison
 -	PHP - preg_replace exploit
 -	Cookies vs. sessions ( no PHP )
--	
+
 **3)	Iptables**
 
 **4)	Network**

@@ -48,20 +48,20 @@ Some tools
 -	MongoDB injection
 -	SQL Truncation
 -	Open Redirect
-Some payload
+- Some payload
 -	LFI/RFI
-Some payloads
-RCE via Log poisoning
-RCE via Proc Environ Injection
-RCE via SSH Log Poisoning
-RCE via SMTP Log Poisoning
+- Some payloads
+- RCE via Log poisoning
+- RCE via Proc Environ Injection
+- RCE via SSH Log Poisoning
+- RCE via SMTP Log Poisoning
 -	How to Detect
 -	XML external entity (XXE) injection
 -	XSS ( Cross-site scripting )
-Interesting payload
+- Interesting payload
 -	Dangling markup injection
 -	Definiton
-Interesting payload
+- Interesting payload
 -	DOM XSS
 -	Cross-Site WebSocket Hijacking
 -	Definition
@@ -69,16 +69,16 @@ Interesting payload
 -	Authentication
 -	Server-side request forgery (SSRF)
 -	finding vuln
-Useful payloads
+- Useful payloads
 -	Os command injection
-Some payload
+- Some payload
 -	Cross-site request forgery (CSRF)
 -	Definiton
 -	Preventing
 -	Exploit techniques
 -	Business logic vulnerabilities
 -	Directory traversal
-Some interesting payloads
+- Some interesting payloads
 -	Web cache poisoning	
 -	Access Control	
 -	Cross-origin resource sharing (CORS)	
@@ -91,7 +91,7 @@ Some interesting payloads
 -	Explore	
 -	Preventing	
 -	HTTP Parameter Pollution	
-Différents Entêtes HTTP	
+- Différents Entêtes HTTP	
 -	MIME sniffing	
 -	Exploiting PUT Method	
 -	With Cadaver	
@@ -101,7 +101,7 @@ Différents Entêtes HTTP
 -	HTTP Host header attacks	
 -	Definition	
 -	Prévention	
-Test HTTP Host header attack :	
+- Test HTTP Host header attack :	
 -	Password reset poisoning :	
 -	HTTP request smuggling	
 -	Definition	
@@ -113,12 +113,12 @@ Test HTTP Host header attack :
 -	Finding TE.CL vuln	
 -	IDOR ( Insecure Direct object Reference )	
 -	OAuth 2.0 authentication vulnerabilities	
-What is OAuth ?
-How does OAuth 2.0 Work ?	
+- What is OAuth ?
+- How does OAuth 2.0 Work ?	
 -	How do OAuth authentication vulnerabilities arise?	
 -	SAML	
 -	Definiton	
-Some Vulnerability :	
+- Some Vulnerability :	
 -	Injection de commentaire XML :
 -	Phar://	
 -	Different file extensions	
@@ -129,22 +129,22 @@ Some Vulnerability :
 -	AJAX Management :	
 -	Authentication Management :	
 -	Credential Stuffing Prevention	
-CSRF (Cross-Site Request Forgery Prevention)	
+- CSRF (Cross-Site Request Forgery Prevention)	
 -	XSS	
-Résumé :	
-Cryptographic Storage	
-Database Security	
-Php configuration	
-Unvalidated Redirects and Forwards	
-File Uploads	
+- Résumé :	
+- Cryptographic Storage	
+- Database Security	
+- Php configuration	
+- Unvalidated Redirects and Forwards	
+- File Uploads	
 -	Password Storage	
 -	MISC	
-MISC checklist
+- MISC checklist
 
 **7)	Javascript security**
 -	CDN in JS:	
-Description	
-Impact	
+- Description	
+- Impact	
 -	Incorrect Referrer Policy :
 -		
 **8)	ClickJacking**
@@ -152,19 +152,19 @@ Impact
 -	
 **9)	Linux**
 -	/etc/passwd file :	
-Some Environment variables in Linux:	
+- Some Environment variables in Linux:	
 -	Fonctionnement de la HEAP ( glibc heap ):	
 -	Some basic HEAP rules:	
-Spécification :	
-Some important file in Linux system	
+- Spécification :	
+- Some important file in Linux system	
 -	SMB Penetration Testing (Port 445)	
-Phishing tools	
-File System in Linux	
+- Phishing tools	
+- File System in Linux	
 -	Shell restreint	
-/etc/shadow file fields	
+- /etc/shadow file fields	
 -	Système de volume logique de linux	
-Shared Library Hijacking :	
-MISC	
+- Shared Library Hijacking :	
+- MISC	
 
 **10)	Linux Hardening Rules**
 
@@ -172,42 +172,42 @@ MISC
 -	Memory leak	
 -	Exploits de type “format strings”:	
 -	L’ASLR	
-Définition	
+- Définition	
 -	Bypass ASRL :	
 -	SSP ( stack smashing protector )	54
 -	RELRO	
 -	Use-After-Free :	
 -	Return-to-libc :	
 -	ROP - Return Oriented Programming	
-Double free :	
+- Double free :	
 -	The House of Force attack	
-Code execution techniques :	
+- Code execution techniques :	
 -	The Fastbin dups ( duplication ) attack	
-MISC	
+- MISC	
 
 **12)	Gdb command**
 
 **13)	ARM**
 -	Differents instructions	
-CPSR	
-condition codes :	
-MISC	
+- CPSR	
+- condition codes :	
+- MISC	
 
 **14)	Assembleur x86**
-MISC	
+- MISC	
 
 **15)	Stéganographie**
-Steganography tools	
-Some useful commands	
+- Steganography tools	
+- Some useful commands	
 
 **16)	Cryptographie**
-Cryptography tools	
-Useful Commands	
-Catégorisation d'algorithmes cryptographique	
-Taille de différents Hash :	
+- Cryptography tools	
+- Useful Commands	
+- Catégorisation d'algorithmes cryptographique	
+- Taille de différents Hash :	
 -	Man In The Middle291
 -	RSA :	
-Intro :	
+- Intro :	
 -	Déroulement de l’algorithme :	
 -	Attacking RSA keys	
 -	Modulus too small ( n )	
@@ -217,35 +217,35 @@ Intro :
 -	Mode opératoire CTR :	
 -	Mode opératoire ECB :	
 -	Diffie-Hellman	
-intro :	
+- intro :	
 -	Fonctionnement de Diffie-Hellman :	
-DH avec courbe elliptique :	
+- DH avec courbe elliptique :	
 -	AES ( Advanced Encryption Standard )	
 -	PKCS#5 and PKCS#7 padding :	
 -	Perfect Forward Secrecy ( PFS ):	
-Hash length attack extension	
-Liste d’Algo de générateur de nombres pseudo-aléatoires	
+- Hash length attack extension	
+- Liste d’Algo de générateur de nombres pseudo-aléatoires	
 -	ECDSA ("Elliptic Curve Digital Signature Algorithm")	
-Algorithme RC4 :	
-EDDSA	
-DES	
-An Initialization Vector (IV)	
+- Algorithme RC4 :	
+- EDDSA	
+- DES	
+- An Initialization Vector (IV)	
 -	Padding oracle attacks :	
 -	Définition :	
-Prévention	
+- Prévention	
 -	GCM ( Galois Counter Mode )	
 -	Le Salt	
-MISC	
+- MISC	
 
 **17)	Forensic**	
-Some tools and command	
+- Some tools and command	
 -	Volatility	
-Some Volatility command and plugin	
+- Some Volatility command and plugin	
 -	Les Rootkit :	
 -	MISC	
 
 **18)	Linux Privilege Escalation**
-System enumeration command :	
+- System enumeration command :	
 -	Kernel exploitation :	
 -	Passwords & File Permissions exploitation :	
 -	Sudo exploitation :	
@@ -257,55 +257,55 @@ System enumeration command :
 -	RCE through mysql command on a writeable directory :	
 -	Lxd Privilege Escalation	
 -	Python Library Hijacking	
-Method 1 : From Bad Write Permission	
-Method 2 : Priority Order	
-Method 3 : PYTHONPATH Environment Variable
+- Method 1 : From Bad Write Permission	
+- Method 2 : Priority Order	
+- Method 3 : PYTHONPATH Environment Variable
 
 **20)	Format ELF**
-Section in ELF	
-Environnement d'exécution :
+- Section in ELF	
+- Environnement d'exécution :
 
 **21)	Python**
 -	MISC
--	
+
 **22)	OSINT**
-Useful tools	
+- Useful tools	
 
 **23)	Metasploit**
 -	Autoroute exploit :	
 -	Ping sweep :
 -	auxiliary tcp port scanner :
--		
+	
 **24)	GraphQL**
 -	Definiton
 -	Common GraphQL endpoint :
 -	GraphQL injection :	
 -	Useful Introspection query	
 -	MISC
--	
+
 **25)	Bash**	
 -	MISC	
--	
+
 **26)	Ruby-On-Rails**
 -	MISC	
--	
+	
 **27)	PowerShell**
 -	Definition
--	
+	
 **28)	Others**	
 -	Recovering saved macOS user passwords	
 -	Mass assignment	
-Tunneling with Chisel :	
+- Tunneling with Chisel :	
 
 **29)	Active Directory**
 
 **30)	DNS**
-Différents Commands
+- Différents Commands
 -	DNSSEC
 -	MISC	
 
 **31)	Android**
-Tools	
+- Tools	
 -	Decompile APK
 -	AndroidManifest.xml :
 -	Root détection :	
@@ -313,10 +313,10 @@ Tools
 -	Android Activity lifecycle :	
 -	Rooting and Jailbreaking :
 -	Signing mobile application :	
-MISC	
+- MISC	
 
 **32)	IOS**
-Tools	
+- Tools	
 -	MISC	
 
 **33)	Reverse**
@@ -342,18 +342,18 @@ Tools
 **36)	Smart Contract**	
 
 **37)	Windows in general**
-Commands	
+- Commands	
 -	NT hash	
 -	Hiberfill.sys file	
 -	DLL Hijacking definiton	
-DLL Hijacking techniques	
+- DLL Hijacking techniques	
 -	UAC Bypass definiton	
-UAC bypass techniques	
+- UAC bypass techniques	
 -	Process migration :	
 -	Misc	
 
 **38)	Wifi**	
-Tools	
+- Tools	
 -	SSID	
 -	WLAN	
 -	WPA PSK	
@@ -365,19 +365,19 @@ Tools
 -	BSSID	
 -	BSS	
 -	Password Cracking ( WPA/WPA2 BForcing )	
-Steps :	
+- Steps :	
 
 **39)	DevOps / DevOpsSec**
 -	Définition	
-Etape Dev et Ops :	 	
-Version Control System :	
-Testing :	
-Intégration Continue :	
-Infrastructure as Code	
+- Etape Dev et Ops :	 	
+- Version Control System :	
+- Testing :	
+- Intégration Continue :	
+- Infrastructure as Code	
 
 **40)	Audit en boîte blanche**
-Code Review : Strategies :	
-Code Review : Reviewing :	
+- Code Review : Strategies :	
+- Code Review : Reviewing :	
 -	Méthode 1	 
 
 **41)	Bug bounty Tips**
@@ -401,21 +401,21 @@ Code Review : Reviewing :
 -	BB - GraphQL :	
 -	BB - APK :	
 -	Non technique, normes, ...	
-PCI DSS	
+- PCI DSS	
 -	Secure PHP Software Guideline	
 -	Dependency Management	
 -	Recommended Packages	
-Subresource Integrity	
-Document Relationships	
-Database Interaction	
-File Uploads	
+- Subresource Integrity	
+- Document Relationships	
+- Database Interaction	
+- File Uploads	
 -	Security Web Testing Guide	
-Information Gathering	
+- Information Gathering	
 -	General	
 -	Shodan	
-Configuration and Deployment Management Testing	
+- Configuration and Deployment Management Testing	
 -	Review each version (if possible) of each element related to the server web (DB, proxy, …)	
-Client-side Testing	
+- Client-side Testing	
 -	DOM XSS	
 -	Test automatique :	
 -	FindomXSS :	
@@ -423,13 +423,12 @@ Client-side Testing
 -	DOM Invader (en ouvrant le navigateur depuis BURP)	
 -	XSStrike (FUZZ)	
 -	Test manuel :	
-API Testing	
+- API Testing	
 -	GraphQL	
-Testing Browser Storage	
-Testing Web Messaging	450
-Testing for Cross Site Script Inclusion	
-Testing for Host Header Injection	
-Testing for SQLi	
+- Testing Browser Storage	
+- Testing Web Messaging	450
+- Testing for Cross Site Script Inclusion	
+- Testing for Host Header Injection	
+- Testing for SQLi	
 
 **42 ) Search Engine**
-

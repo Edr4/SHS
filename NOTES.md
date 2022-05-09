@@ -432,7 +432,7 @@
 <strong>Bruteforce by specific some extensions</strong>
 <p>
 
-<img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image2.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li>
 </ul>
@@ -566,7 +566,7 @@
 <strong>To verify whether the file is uploaded or not, run the URL: [URL]/dav/ on the browser.</strong>
 <p>
 
-<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image3.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -2581,25 +2581,25 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
 <strong>MySQL Syntax:</strong>
 <p>
 
-<img src="images/image31.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image31.gif" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 <strong>SQL Server Syntax: </strong>
 <p>
 
-<img src="images/image32.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image32.gif" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 <strong>Oracle Syntax:</strong>
 <p>
 
-<img src="images/image33.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image33.gif" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 <strong>PostgreSQL syntax : </strong>
 <p>
 
-<img src="images/image34.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image34.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -2627,7 +2627,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
    <td><strong>Executing more than one query in one transaction ( Stacking Queries ).</strong>
 <p>
 
-<img src="images/image35.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image35.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -2977,7 +2977,7 @@ http://example.com/index.php?page=../../../[ADD MORE]../../../../etc/passwd
   </tr>
   <tr>
    <td>
-<img src="images/image41.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image41.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td><strong>Upload a Zip file with a PHP Shell inside and execute it.</strong>
@@ -3610,7 +3610,7 @@ Step :
    <td><strong>Any CSP-enabled website that either offers JSONP feeds to others, or utilizes them internally, is automatically prone to a flavor of return-oriented programming: the attacker is able to invoke any functions of his choice, often with at least partly controllable parameters, by specifying them as the callback parameter on the API call:</strong>
 <p>
 
-<img src="images/image59.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image59.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -5580,12 +5580,12 @@ Session Storage et SESSION sont deux choses différentes.
 <ul>
 
 <li>
-<img src="images/image211.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image211.gif" width="" alt="alt_text" title="image_tooltip">
 
 <ul>
 
 <li>
-<img src="images/image212.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image212.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li>
 </ul>
@@ -5829,7 +5829,7 @@ Session Storage et SESSION sont deux choses différentes.
  
 <li>This defense relies on the same-origin policy (SOP) restriction that only JavaScript can be used to add a custom header, and only within its origin. By default, browsers do not allow JavaScript to make cross origin requests with custom headers.
 
-<img src="images/image213.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image213.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li> 
 </ul>
@@ -6104,7 +6104,7 @@ In some cases there may be regulatory requirements that limit the algorithms tha
 
 <li>If GCM or CCM are not available, then CTR mode or CBC mode should be used.  As these do not provide any guarantees about the authenticity of the data, separate authentication should be implemented, such as using the Encrypt-then-MAC technique.
         
-<img src="images/image215.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image215.gif" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 
@@ -6383,7 +6383,7 @@ They must not be used for anything security critical, as it is often possible fo
 <ul>
 
 <li>
-<img src="images/image217.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image217.gif" width="" alt="alt_text" title="image_tooltip">
  
 <ul>
  
@@ -6449,7 +6449,7 @@ They must not be used for anything security critical, as it is often possible fo
 <p>
 
     
-<img src="images/image218.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image218.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li>
 </ul>
@@ -6727,7 +6727,7 @@ They must not be used for anything security critical, as it is often possible fo
   </tr>
   <tr>
    <td>
-<img src="images/image219.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image219.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -6857,7 +6857,7 @@ They must not be used for anything security critical, as it is often possible fo
   </tr>
   <tr>
    <td>
-<img src="images/image220.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image220.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -6984,7 +6984,7 @@ They must not be used for anything security critical, as it is often possible fo
 
 <p style="text-align: right">
 
-<img src="images/image224.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image224.gif" width="" alt="alt_text" title="image_tooltip">
 </p>
 
 
@@ -9163,7 +9163,7 @@ Publiée en 2005, **Cette attaque se concentre sur la taille affichée en mémoi
    <td><strong>Detect stegano-hidden data in PNG & BMP</strong>
 <p>
 
-<img src="images/image288.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image288.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -11924,7 +11924,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
 <table>
   <tr>
    <td>
-<img src="images/image369.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image369.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
@@ -11947,7 +11947,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
   </tr>
   <tr>
    <td>
-<img src="images/image370.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image370.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
@@ -11961,7 +11961,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
   </tr>
   <tr>
    <td>
-<img src="images/image371.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image371.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td><strong>alternative to dig.</strong>
@@ -11969,7 +11969,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
   </tr>
   <tr>
    <td>
-<img src="images/image372.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image372.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
@@ -11979,7 +11979,7 @@ Théorie : This vulnerability is based on the Python Library that is searching t
    <td><strong>Dnsenum &lt;dnsServ></strong>
 <p>
 
-<img src="images/image373.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image373.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
@@ -12858,7 +12858,7 @@ Combined with DAC_READ_SEARCH capability, it can be exploited to escape a contai
 <strong>It has been discovered that the “fodhelper” process when it starts tries to find some registry keys which don't exist.</strong>
 <p>
 
-<img src="images/image391.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image391.gif" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 <strong>Since these registry entries don't exist, a user can create this structure in the registry in order to manipulate fodhelper to execute a command with higher privileges bypassing the User Account Control (UAC).</strong>
@@ -13200,7 +13200,7 @@ Code Review : Strategies :
 
 <p style="text-align: right">
 
-<img src="images/image404.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image404.gif" width="" alt="alt_text" title="image_tooltip">
 </p>
 
 
@@ -14135,7 +14135,7 @@ Condition :
 <p>
 
 
-<img src="images/image408.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image408.gif" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 
@@ -14259,7 +14259,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 
 <li><strong>Payload in XML file :</strong>
     
-<img src="images/image409.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image409.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li>
 </ul>
@@ -14676,7 +14676,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 <ul>
 
 <li>
-<img src="images/image410.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image410.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li>
 </ul>
@@ -14716,7 +14716,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 
 <p>
 
-<img src="images/image411.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image411.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li> 
 </ul>
@@ -14739,7 +14739,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 
 <li><strong>Try to add a callback parameter in the request. Maybe the page was prepared to send the data as JSONP. ( Content-Type: application/javascript )</strong>
 
-<img src="images/image412.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image412.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li>
 </ul>
@@ -14806,7 +14806,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 <ul>
  
 <li>
-<img src="images/image413.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image413.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li> 
 </ul>
@@ -15010,7 +15010,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 <ul>
 
 <li><strong>Injection in port :</strong>
-<img src="images/image414.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image414.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li>
 </ul>
@@ -15025,7 +15025,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 <ul>
  
 <li>
-<img src="images/image415.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image415.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li> 
 </ul>
@@ -15041,11 +15041,11 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 <ul>
  
 <li>
-<img src="images/image416.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image416.gif" width="" alt="alt_text" title="image_tooltip">
 
  
 <li>
-<img src="images/image417.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image417.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li> 
 </ul>
@@ -15148,13 +15148,13 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
   </tr>
   <tr>
    <td>
-<img src="images/image418.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image418.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
   <tr>
    <td>
-<img src="images/image419.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image419.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -15169,7 +15169,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
   </tr>
   <tr>
    <td>
-<img src="images/image420.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image420.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -15178,7 +15178,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
 <ul>
 
 <li>
-<img src="images/image421.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image421.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li>
 </ul>
@@ -15186,7 +15186,7 @@ Using this trick ( zip ) we have basically circumvented the file upload restrict
   </tr>
   <tr>
    <td>
-<img src="images/image422.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image422.gif" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -15745,12 +15745,12 @@ Information Gathering
    
 <li>If a symbolic name is known for [IP] (let it be www.owasp.org),  its name servers can be determined by means of tools such as nslookup, host, or dig, by requesting DNS NS records : 
                     
-<img src="images/image427.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image427.gif" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 
                     
-<img src="images/image428.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image428.gif" width="" alt="alt_text" title="image_tooltip">
   
 <ul>
   
@@ -15806,7 +15806,7 @@ Information Gathering
 
 <p>
 
-<img src="images/image429.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image429.gif" width="" alt="alt_text" title="image_tooltip">
 
 <ul>
 
@@ -16478,12 +16478,12 @@ A web server commonly hosts several web applications on the same IP address, ref
 <p>
 
     
-<img src="images/image432.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image432.gif" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 
     
-<img src="images/image433.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image433.gif" width="" alt="alt_text" title="image_tooltip">
 
 <ul>
 
@@ -16506,7 +16506,7 @@ A web server commonly hosts several web applications on the same IP address, ref
 
 <li>X-Forwarded Host Header Bypass :
     
-<img src="images/image434.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image434.gif" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 
@@ -16527,7 +16527,7 @@ A web server commonly hosts several web applications on the same IP address, ref
 <p>
 
     
-<img src="images/image435.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image435.gif" width="" alt="alt_text" title="image_tooltip">
 
 </li>
 </ul>

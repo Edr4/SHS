@@ -9,9 +9,7 @@
 -   [HTML]() IN PROGRESS
 -   [Markdown](NOTES.md) - IN PROGRESS
 
-Autor :  Comores11
-
-Contribution : Edra
+Autor :  Comores11 and Edra
 
 ## Summary
 
